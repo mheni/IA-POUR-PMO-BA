@@ -1,0 +1,13 @@
+﻿Code;Nom;Groupe;Type;Unites_max_pourcent;Taux_standard_EUR_h;Role
+SP;Sponsor;Pilotage;Travail;10;100;Arbitrage et autorisation des jalons
+CP;Chef de projet BI;Pilotage;Travail;50;90;Planification, arbitrages, coordination
+PMO;PMO;Pilotage;Travail;25;70;Contrôle du planning et reporting
+BA;Business Analyst;Fonctionnel;Travail;100;75;Besoins, KPI, spécifications et recette
+MET;Représentant métier / Key User;Fonctionnel;Travail;50;60;Validation métier et tests utilisateurs
+DA;Data Analyst;Data / BI;Travail;100;70;Analyse des sources et qualité des données
+ARCH;Data Architect;Data / BI;Travail;100;100;Architecture et modèle décisionnel
+DE;Data Engineer;Data / BI;Travail;100;85;Flux, entrepôt et alimentation
+BI;BI Developer;Data / BI;Travail;100;75;Indicateurs, rapports et dashboards
+IT;Référent infrastructure / DBA;IT;Travail;100;85;Accès, environnements, déploiement et exploitation
+QA;QA / Test Engineer;Qualité;Travail;100;65;Préparation, exécution des tests et retests
+FORM;Formateur / Change Manager;Accompagnement;Travail;100;65;Formation, communication et adoption

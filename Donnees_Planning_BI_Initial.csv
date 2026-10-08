@@ -1,0 +1,60 @@
+﻿ID_reference;Code_activite;Nom;Niveau;Nature;Duree_jours;Predecesseurs_ID;Predecesseurs_codes;Affectations_pourcent
+1;P1;Initialisation;1;Phase;;;;
+2;I1;Identifier et qualifier le besoin;2;Tâche;2;;;"BA:50;CP:25"
+3;I2;Identifier les parties prenantes;2;Tâche;1;2;I1;"BA:50;PMO:25"
+4;I3;Définir objectifs, périmètre et exclusions;2;Tâche;2;3;I2;"BA:50;CP:25"
+5;I4;Définir livrables, contraintes et charte projet;2;Tâche;2;4;I3;"CP:50;PMO:25"
+6;I5;Faire valider le cadrage;2;Tâche;1;5;I4;"CP:25;SP:10"
+7;J1;Projet officiellement lancé;2;Jalon;0;6;I5;
+8;P2;Analyse et spécifications;1;Phase;;;;
+9;A1;Préparer et conduire les ateliers de besoins;2;Tâche;4;7;J1;"BA:50;MET:25"
+10;A2;Analyser les processus métier;2;Tâche;3;9;A1;BA:50
+11;A3;Définir et documenter les KPI;2;Tâche;3;10;A2;"BA:50;MET:25"
+12;A4;Inventorier les sources et obtenir les accès;2;Tâche;3;7;J1;"DA:50;IT:50"
+13;A5;Analyser la qualité des données;2;Tâche;4;12;A4;DA:50
+14;A6;Rédiger les spécifications fonctionnelles;2;Tâche;4;"11;13";"A3;A5";"BA:50;DA:25"
+15;A7;Faire valider les spécifications;2;Tâche;2;14;A6;"BA:50;MET:25"
+16;J2;Spécifications validées;2;Jalon;0;15;A7;
+17;P3;Conception;1;Phase;;;;
+18;C1;Concevoir les parcours et règles fonctionnelles;2;Tâche;3;16;J2;BA:50
+19;C2;Concevoir l’architecture BI et les accès;2;Tâche;4;16;J2;"ARCH:100;IT:25"
+20;C3;Concevoir le modèle de données;2;Tâche;4;"19;18";"C2;C1";ARCH:100
+21;C4;Concevoir le Data Warehouse et le Data Mart;2;Tâche;3;20;C3;ARCH:100
+22;C5;Concevoir les flux d’alimentation;2;Tâche;3;"21;13";"C4;A5";DE:100
+23;C6;Concevoir les maquettes de dashboards;2;Tâche;4;18;C1;"BI:100;MET:25"
+24;C7;Revoir et faire valider la conception;2;Tâche;2;"22;23";"C5;C6";"ARCH:100;BA:25"
+25;J3;Architecture et conception validées;2;Jalon;0;24;C7;
+26;P4;Réalisation;1;Phase;;;;
+27;R1;Développer les flux ETL/ELT;2;Tâche;8;25;J3;DE:100
+28;R2;Développer le modèle et créer le Data Warehouse;2;Tâche;6;25;J3;DE:100
+29;R3;Alimenter le Data Warehouse pilote;2;Tâche;4;"27;28";"R1;R2";DE:100
+30;R4;Développer et vérifier les indicateurs;2;Tâche;4;29;R3;"BI:100;BA:25"
+31;R5;Développer les rapports;2;Tâche;4;30;R4;BI:100
+32;R6;Développer les dashboards;2;Tâche;4;31;R5;BI:100
+33;R7;Intégrer les composants BI;2;Tâche;3;"32;29";"R6;R3";"BI:100;DE:50"
+34;J4;Version BI prête pour les tests;2;Jalon;0;33;R7;
+35;P5;Tests et recette;1;Phase;;;;
+36;T1;Préparer jeux de données et cahier de tests;2;Tâche;3;25;J3;"QA:100;BA:25"
+37;T2;Exécuter les tests techniques;2;Tâche;3;"34;36";"J4;T1";"QA:100;DE:25"
+38;T3;Exécuter les tests d’intégration;2;Tâche;3;37;T2;QA:100
+39;T4;Exécuter les tests fonctionnels;2;Tâche;3;38;T3;"QA:100;BA:25"
+40;T5;Corriger les anomalies et retester;2;Tâche;4;39;T4;"BI:100;QA:50"
+41;T6;Conduire la recette métier;2;Tâche;4;40;T5;"BA:50;MET:50;QA:25"
+42;T7;Obtenir la validation finale et le go/no-go;2;Tâche;1;41;T6;"CP:25;MET:25"
+43;J5;Recette validée;2;Jalon;0;42;T7;
+44;P6;Déploiement / Mise en production;1;Phase;;;;
+45;D1;Préparer le plan de déploiement et de retour arrière;2;Tâche;2;39;T4;"IT:50;CP:25"
+46;D2;Préparer et vérifier les environnements;2;Tâche;3;45;D1;IT:100
+47;D3;Former les utilisateurs pilotes;2;Tâche;2;40;T5;"FORM:100;MET:25"
+48;D4;Déployer et migrer en production;2;Tâche;1;"43;46;47";"J5;D2;D3";"IT:100;DE:50"
+49;D5;Vérifier les données et accès en production;2;Tâche;1;48;D4;"QA:100;IT:50"
+50;J6;Mise en production;2;Jalon;0;49;D5;
+51;D6;Accompagner le démarrage et stabiliser;2;Tâche;3;50;J6;"BI:50;FORM:50"
+52;P7;Clôture;1;Phase;;;;
+53;L1;Finaliser la documentation opérationnelle;2;Tâche;2;50;J6;"BA:50;BI:25"
+54;L2;Transférer le service aux équipes opérationnelles;2;Tâche;2;"51;53";"D6;L1";"IT:50;BI:25"
+55;L3;Établir le bilan du projet;2;Tâche;1;54;L2;"CP:50;PMO:25"
+56;L4;Organiser le retour d’expérience;2;Tâche;1;55;L3;"PMO:25;BA:25"
+57;L5;Effectuer la clôture administrative;2;Tâche;1;56;L4;"CP:25;PMO:25"
+58;L6;Tenir la réunion de clôture;2;Tâche;1;57;L5;"CP:25;SP:10"
+59;J7;Projet clôturé;2;Jalon;0;58;L6;
