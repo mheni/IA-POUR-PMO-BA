@@ -4,6 +4,8 @@ Dossier participant — Version 1.0 — Octobre 2026
 
 Cas pédagogique fictif : NOVALIS Distribution. Toutes les personnes, données, coûts et contraintes sont inventés pour la formation. Le document n’est pas un modèle officiel ATOS.
 
+avant de commencer regarder cette vidéo :https://www.youtube.com/watch?v=Ho08ahyc12s
+
 ## 1. Présentation du TP
 
 Vous allez transformer une demande métier en planning pilotable : cadrage → WBS → réseau de tâches → ressources → arbitrages → planning optimisé → référence → suivi. Chaque atelier enrichit le même fichier Microsoft Project ; aucun exercice ne repart d’un fichier vide, sauf la création initiale.
