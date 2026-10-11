@@ -1,0 +1,9 @@
+REGISTRE_RISQUES — NOVALIS BI — SRC_RISKS — Arrêté au 24/11/2026, 18:00
+Échelle : P/I entiers 1–5 ; C=P×I ; 1–4 faible,5–9 modérée,10–14 élevée,15–19 très élevée,20–25 critique.
+[R01] Cause mapping client incomplet ; événement données rapprochées incorrectement ; conséquence KPI non fiables et rejet recette ; P4 I4 C16 ; owner Nadia ; prévention validation règles et tests de rapprochement ; échéance 26/11 ; ouvert.
+[R02] Cause deux anomalies bloquantes ; événement défaut grave subsistant en recette ; conséquence non-acceptation/go-live bloqué ; P3 I5 C15 ; owner Léa ; mitigation correction/retest A03 ; échéance 26/11 ; ouvert.
+[R03] Cause disponibilité métier partielle ; événement recette décalée ; conséquence retard ; P4 I3 C12 ; owner Hugo ; mitigation bloquer les créneaux ; échéance Non précisée ; ouvert.
+[R04] Cause habilitations non démontrées ; événement restitution de données non autorisées ; conséquence incident et arrêt ; P3 I5 C15 ; owner Non précisé ; mitigation Non précisée ; échéance Non précisée ; ouvert.
+[R05] Cause fenêtre IT incertaine ; événement déploiement impossible à la date cible ; conséquence report ; P3 I4 C12 ; owner Karim ; mitigation faire confirmer fenêtre par IT ; échéance 26/11 ; ouvert.
+[NOTE_R] Nouvelle mise en production fixée au 12/12/2026 après arbitrage sponsor approuvé le 24/11/2026. Aucun PV d’arbitrage joint.
+FIN_SRC_RISKS

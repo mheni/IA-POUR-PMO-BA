@@ -1,0 +1,15 @@
+TRANSCRIPTION_FICTIVE — NOVALIS BI — SRC_MEETING — Réunion 24/11/2026, 17:00–18:00
+Participants : Isabelle (chef de projet), Nadia (BA), Karim (lead technique), Léa (QA), Hugo (responsable métier), Marc (sponsor).
+[M01] Isabelle : Le COPIL est prévu le 27/11/2026. Notre cible de production reste le 30/11/2026. Cette cible n’est pas une autorisation de mise en production.
+[M02] Hugo : Je propose d’ajouter un dashboard stocks au pilote. Nadia : Il faut d’abord étudier le besoin et le coût. Marc : Nous décidons de garder le pilote à trois dashboards ventes, marge et objectifs ; stocks sera étudié en phase 2, pas ajouté au pilote. Décision confirmée par Isabelle.
+[M03] Léa : La recette métier n’est pas signée à 18:00 ce 24/11 ; les rapprochements doivent être terminés. Hugo : Je confirme l’absence de PV signé. Marc : Décision : aucun passage en production sans PV métier et zéro anomalie bloquante ; le 30/11 reste une cible à réexaminer au COPIL.
+[M04] Karim : Deux anomalies bloquantes de rapprochement restent ouvertes. Léa : Je prends l’action A03 de correction/retest avec l’équipe technique pour le 26/11/2026. Isabelle : Action décidée ; Léa responsable du suivi et Karim contribue.
+[M05] Nadia : Je finalise le dictionnaire KPI le 26/11/2026, action A01. Hugo : D’accord ; j’en validerai les règles métier. Isabelle : Action confirmée.
+[M06] Isabelle : Karim, l’action A02 d’accès à l’environnement de test devait être close le 23/11/2026. Karim : Elle est toujours ouverte et bloquée ; je reste responsable, je n’ai pas de nouvelle date confirmée. Isabelle : Action maintenue ; ne pas inventer de nouvelle échéance.
+[M07] Hugo : Je prends A04, validation et signature du PV de recette le 27/11/2026 sous réserve de retests acceptés. Isabelle : Action confirmée ; la condition doit être conservée.
+[M08] Isabelle : Je prépare A05, dossier du COPIL pour le 26/11/2026. Marc : Confirmé.
+[M09] Marc : Décision : j’autorise une enveloppe de renfort QA plafonnée à 8000 EUR, sous réserve de la disponibilité confirmée par achats ; Isabelle prépare la mobilisation. Ce n’est pas une hausse automatique du budget total du projet. Isabelle : Décision enregistrée, condition maintenue ; je proposerai une fiche de mobilisation si achats confirme, sans ajouter une action planifiée à ce stade.
+[M10] Hugo : Nous n’avons pas assez de créneaux métier confirmés ; cela risque de décaler les validations. Marc : La disponibilité et la date réaliste sont à arbitrer au COPIL.
+[M11] Karim : Je propose une migration le 28/11 pour gagner du temps. Léa : Je ne suis pas d’accord tant que les rapprochements et tests restent ouverts. Isabelle : Aucune migration anticipée n’est décidée ; proposition et désaccord à conserver.
+[M12] Isabelle : La date finale et l’engagement de production seront soumis au sponsor au COPIL. Marc : Oui. Aucun arbitrage de report à décembre n’est approuvé à cette réunion.
+FIN_SRC_MEETING
