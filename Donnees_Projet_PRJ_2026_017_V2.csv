@@ -1,0 +1,21 @@
+﻿Colonne;Type;Valeur
+Title;Une ligne de texte;Modernisation du système d’information
+ProjectRef;Une ligne de texte;PRJ-2026-017
+ProjectManager;Une ligne de texte;Alexandra Rey
+Sponsor;Une ligne de texte;Directeur des systèmes d’information
+Status;Une ligne de texte;Orange
+Progress;Nombre (0–100, entier);65
+BudgetUsed;Nombre (0–100, entier);72
+NextDeliverable;Une ligne de texte;Livraison du prototype
+Deadline;Une ligne de texte;2026-10-23
+MainRisk;Plusieurs lignes de texte brut;Retard de livraison lié à une dépendance fournisseur
+Impact;Une ligne de texte;Élevé
+ProposedAction;Plusieurs lignes de texte brut;Réunion d’escalade avec le fournisseur
+ExpectedDecision;Plusieurs lignes de texte brut;Arbitrage sur le renforcement temporaire de l’équipe
+NextMeeting;Une ligne de texte;Comité de pilotage de la semaine suivante — date précise à confirmer
+Highlights;Plusieurs lignes de texte brut;"Cadrage validé ; développement du prototype en cours ; confirmation fournisseur attendue."
+DataOwner;Une ligne de texte;PMO de formation
+DataVersion;Une ligne de texte;V1
+CharterUrl;Plusieurs lignes de texte brut;À remplacer par URL réelle copiée S7
+RequirementsUrl;Plusieurs lignes de texte brut;À remplacer par URL réelle copiée S7
+PlanUrl;Plusieurs lignes de texte brut;À remplacer par URL réelle du .mpp ou .xlsx, S7
