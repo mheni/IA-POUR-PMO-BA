@@ -1,0 +1,57 @@
+// Mesures DAX — formule séparée à créer via Nouvelle mesure.
+// Fonctions et virgules internationales. Ne pas coller tout ce fichier dans la barre d’une seule mesure.
+// Avancement est la colonne Power Query [AvancementPct]/100.
+// Criticite est Power Query Probabilite*Impact.
+
+Date etat = MAX(Etat[DateEtat])
+
+Version source = SELECTEDVALUE(Etat[VersionSource], "Non precise")
+
+Nb taches = COUNTROWS(Taches)
+
+Nb taches terminees = CALCULATE(COUNTROWS(Taches), Taches[Avancement] = 1)
+
+Charge prevue h = SUM(Taches[ChargePrevue_h])
+
+Charge consommee h = SUM(Taches[ChargeConsommee_h])
+
+Budget prevu EUR = SUM(Taches[BudgetPrevu_EUR])
+
+Budget autorise EUR = SUM(Projets[BudgetAutorise_EUR])
+
+Cout reel EUR = SUM(Taches[CoutReel_EUR])
+
+Budget consomme pct = DIVIDE([Cout reel EUR], [Budget autorise EUR])
+
+Budget non consomme EUR = [Budget autorise EUR] - [Cout reel EUR]
+
+Avancement global = DIVIDE(SUMX(Taches, Taches[ChargePrevue_h] * Taches[Avancement]), [Charge prevue h])
+
+Nb taches en retard = SUM(Taches[RetardActif])
+
+Nb jalons menaces = CALCULATE(COUNTROWS(Jalons), Jalons[Statut] = "Menacé")
+
+Nb incidents ouverts = CALCULATE(COUNTROWS(Incidents), Incidents[Statut] = "Ouvert")
+
+Nb risques ouverts = CALCULATE(COUNTROWS(Risques), Risques[Statut] = "Ouvert")
+
+Nb risques tres eleves = CALCULATE(COUNTROWS(Risques), Risques[Statut] = "Ouvert", Risques[Criticite] >= 15)
+
+Nb risques sans owner = CALCULATE(COUNTROWS(Risques), Risques[Statut] = "Ouvert", Risques[Owner] = "Non precise")
+
+Nb actions en retard = VAR D = [Date etat]
+RETURN COUNTROWS(FILTER(Actions, Actions[Statut] <> "Clôturée" && Actions[Echeance] < D))
+
+Nb taches a actualiser = SUM(Taches[MAJObsolete])
+
+Derniere maj tache = MAX(Taches[DerniereMAJ])
+
+// Colonnes calculées — créer dans la table Taches avec Nouvelle colonne.
+
+RetardActif = VAR D = MAX(Etat[DateEtat])
+RETURN IF(Taches[Avancement] < 1 && NOT(ISBLANK(Taches[FinPrevue])) && Taches[FinPrevue] < D, 1, 0)
+
+JoursRetard = IF(Taches[RetardActif] = 1, DATEDIFF(Taches[FinPrevue], MAX(Etat[DateEtat]), DAY), 0)
+
+MAJObsolete = IF(Taches[Avancement] < 1 && DATEDIFF(Taches[DerniereMAJ], MAX(Etat[DateEtat]), DAY) > 7, 1, 0)
+
