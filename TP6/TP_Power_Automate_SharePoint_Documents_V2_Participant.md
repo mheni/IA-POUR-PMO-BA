@@ -1,7 +1,7 @@
 # Création d’un flux Power Automate complet — Données projet → Génération du compte rendu → Envoi dans Microsoft Teams et par e-mail
 
 Comparaison d’une réalisation sans IA et d’une réalisation accélérée par Copilot, au service du PMO, du PMP et du Business Analyst.
-
+vidéo de référence: https://www.youtube.com/watch?v=FcW0L1L3U0M
 ## 1. Page de garde
 
 Formation : Utilisation de l’IA par un PMO ou PMP BA pour accélérer ses travaux.
