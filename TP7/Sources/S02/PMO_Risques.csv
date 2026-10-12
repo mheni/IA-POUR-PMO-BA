@@ -1,0 +1,6 @@
+﻿"Projet ID","Date état","Version","Risque ID","Risque","Probabilité","Impact","Criticité","Priorité","Propriétaire","Mesure proposée","Échéance mesure","Statut risque"
+"PRJ-2026-017","2026-10-16","S02","RK01","Dépendance fournisseur : risque de retard prototype","4","4","16","Très élevée","Alexandra Rey","Escalade fournisseur","2026-10-19","Ouvert"
+"PRJ-2026-017","2026-10-16","S02","RK02","Qualité des données : recette non acceptée","3","5","15","Très élevée","Lina Morel","Rapprochement et tests","2026-10-20","Ouvert"
+"PRJ-2026-017","2026-10-16","S02","RK03","Disponibilité métier : validation décalée","3","4","12","Élevée","Hugo Bernard","Réserver des créneaux","2026-10-19","Ouvert"
+"PRJ-2026-017","2026-10-16","S02","RK04","Accès non démontrés : exposition de données","2","5","10","Élevée","Non précisé","À définir","","Ouvert"
+"PRJ-2026-017","2026-10-16","S02","RK05","Extension de périmètre non arbitrée","3","3","9","Modérée","Alexandra Rey","Demander un arbitrage","2026-10-19","Ouvert"
