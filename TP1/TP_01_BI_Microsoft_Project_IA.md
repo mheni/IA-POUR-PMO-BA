@@ -427,7 +427,7 @@ Vérifier particulièrement les estimations « 1 jour » universelles, l’oubli
 3. Double-cliquer une activité → Informations sur la tâche → Prédécesseurs, ou utiliser la colonne Prédécesseurs et les ID.
 4. Utiliser les liens Fin-Début. Dans la boîte Prédécesseurs, lire le nom des tâches pour vérifier la correspondance.
 5. Informations sur la tâche → Avancées : conserver Dès que possible et aucun décalage.
-6. Afficher le Gantt et contrôler les parallélismes A1/A4, C1/C2 et C6/C4.
+6. Afficher le Gantt et contrôler les parallélismes A1/A4, C1/C2 et C6/C3 (avec un décalage d'une journée).
 7. Inspecter une tâche avec l’inspecteur disponible, ou via Informations sur la tâche, pour expliquer sa date.
 
 Mini-expérience, dans une copie : appliquer un lien Début-Début entre deux activités susceptibles de travailler sur une version intermédiaire. Écrire le prérequis métier nécessaire. Annuler si ce prérequis n’est pas démontré. La parallélisation n’est pas justifiée uniquement par une préférence de date.
