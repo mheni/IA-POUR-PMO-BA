@@ -1,0 +1,7 @@
+"Projet ID","Date état","Version","Jalon ID","Jalon","Date prévue","Date réelle","Statut jalon","Point de vigilance"
+"PRJ-2026-017","2026-10-16","S02","J01","Cadrage validé","2026-09-04","2026-09-04","Terminé","Charte fictive validée"
+"PRJ-2026-017","2026-10-16","S02","J02","Spécifications validées","2026-09-11","2026-09-14","Terminé","Revue métier prolongée"
+"PRJ-2026-017","2026-10-16","S02","J03","Sources qualifiées","2026-09-18","2026-09-21","Terminé","Compléments de sources"
+"PRJ-2026-017","2026-10-16","S02","J04","Architecture validée","2026-09-25","2026-09-28","Terminé","Revue complémentaire"
+"PRJ-2026-017","2026-10-16","S02","J05","Prototype livré","2026-10-23","","Menacé","Fournisseur et données en retard"
+"PRJ-2026-017","2026-10-16","S02","J06","Mise en production","2026-10-30","","Menacé","Recette et intégration à sécuriser"
