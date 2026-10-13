@@ -159,7 +159,7 @@ Tous les profils sont des ressources de type Travail, une personne par code. Les
 | FORM | Formateur / Change Manager | Accompagnement | 100% | 65 | Formation, communication et adoption |
 
 
-Unités max. = capacité allouée à ce projet. Unités d’affectation = part de la journée consacrée à une tâche. Calendrier = créneaux réellement travaillés. Une ressource à 50 % d’unités max. avec un calendrier de huit heures offre ici quatre heures/jour au projet ; ne pas lui appliquer en plus un calendrier de quatre heures pour représenter la même réduction. [web:53][web:55]
+Unités max. = capacité allouée à ce projet. Unités d’affectation = part de la journée consacrée à une tâche. Calendrier = créneaux réellement travaillés. Une ressource à 50 % d’unités max. avec un calendrier de huit heures offre ici quatre heures/jour au projet ; ne pas lui appliquer en plus un calendrier de quatre heures pour représenter la même réduction. 
 
 Les affectations sont proposées dans le tableau de référence. Un profil à 100 % de capacité peut être affecté à 25 %, 50 % ou 100 % selon les tâches. Le sponsor est renseigné pour le coût et la validation, pas affecté aux jalons nuls.
 
