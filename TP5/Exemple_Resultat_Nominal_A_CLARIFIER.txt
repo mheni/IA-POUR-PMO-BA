@@ -1,0 +1,31 @@
+STATUT: A_CLARIFIER
+
+Synthèse exécutive
+Le pilote PORTAL-2026-042 vise le suivi des demandes sans appels répétés. La charte fictive fixe budget320000EUR et cible15/12/2026, sans GO ni budget additionnel approuvé. Les contrôles d’accès et la dépendance API nécessitent des preuves.
+
+Besoins proposés
+BR01 : usager authentifié consulte l’état de ses seuls dossiers.
+BR02 : notification sans donnée sensible avec renvoi au portail.
+BR03 : personnalisation visuelle de confort.
+BR04 : WhatsApp, hors pilote selon source.
+Critères proposés : cohérence de l’état affiché, tests d’accès propres/tiers, signalement des erreurs ; détails à faire valider.
+
+Priorités proposées
+BR01 Must condition de pilote ; BR02 Should avec consultation comme alternative ; BR03 Could ; BR04 Won’t have for now. Classements à confirmer par le métier/sponsor, pas priorités definitives.
+
+Risques
+Exposition dossier tiers : P4/I5/C20 critique, aucun incident réel déclaré ; prévenir par droits/test, contingence suspension/périmètre sûr. Owner sécurité proposé, mandat/disponibilité à confirmer.
+Retard fournisseur : P3/I4/C12 proposé ; confirmer accès/API et engagement, plan de repli à étudier.
+Disponibilité métier : P3/I3/C9 proposé ; réserver créneaux/suppléants.
+
+Décisions attendues
+Valider exigences et critères ; arbitrer catégorie/capacité, moyens de contrôle et disponibilités. Ne pas engager une date de tâche ou de budget supplémentaire sans preuve.
+
+Actions proposées
+BA structure les exigences/critères, référent technique confirme API, métiers qualifient recette, sécurité vérifie droits. Les rôles sont proposés et dates opérationnelles manquantes doivent être fixées humainement.
+
+Manques
+Coût/charge par exigence, date API engagée, mandat owners, règles de notification et preuves de tests. Les commentaires de source ne valent pas approbation.
+
+Validations
+Sponsor/métier/sécurité/données selon mandat ; soumis à validation humaine, aucune décision engageante prise automatiquement.

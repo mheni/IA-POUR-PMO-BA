@@ -1,0 +1,5 @@
+ER-101 — Éléments fictifs de risque, état13/10/2026.
+Accès API de test non confirmé ; un retard fournisseur pourrait décaler le pilote. Proposition P3/I4, à justifier.
+Filtrage des dossiers par usager non démontré ; exposition d’un dossier tiers possible. Proposition P4/I5 ; owner et preuve de tests non confirmés.
+Experts métier à disponibilité partielle ; risque de validation tardive. Proposition P3/I3.
+Aucun incident de fuite réel n’est déclaré. Aucune acceptation du risque ni aucun GO n’est approuvé.

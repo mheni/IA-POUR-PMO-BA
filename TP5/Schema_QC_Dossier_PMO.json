@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "etat_dossier": {
+      "type": "string",
+      "enum": [
+        "PRET_REVUE",
+        "A_CLARIFIER",
+        "BLOQUE"
+      ]
+    },
+    "rapport_final": {
+      "type": "string"
+    },
+    "motif": {
+      "type": "string"
+    },
+    "validation_humaine_requise": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "etat_dossier",
+    "rapport_final",
+    "motif",
+    "validation_humaine_requise"
+  ],
+  "additionalProperties": false
+}
