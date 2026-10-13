@@ -357,7 +357,7 @@ Le sponsor veut lire une vue synthétique par phase, tandis que l’équipe doit
 
 ### Consigne
 
-Créez les sept phases et les activités de votre proposition. Après revue, normalisez la structure avec la table [8.5](#8.5) pour la suite du TP. Les lignes de jalon peuvent être réservées dès maintenant ; leur durée et leurs liens seront vérifiés à l’atelier 5.
+Créez les sept phases et les activités de votre proposition. Après revue, normalisez la structure avec la table [8.5](##8.5) pour la suite du TP. Les lignes de jalon peuvent être réservées dès maintenant ; leur durée et leurs liens seront vérifiés à l’atelier 5.
 
 ### Prompt IA
 
