@@ -6,7 +6,7 @@ Cas pédagogique fictif : NOVALIS Distribution. Toutes les personnes, données, 
 
 avant de commencer regarder cette vidéo :https://www.youtube.com/watch?v=Ho08ahyc12s
 
-** le TP est composé de deux partie: partie ANNEXE à utiliser dans les atelier: de 1 à 8 et partie ATELIER à faire qui commence à la section 9
+## le TP est composé de deux parties: partie ANNEXE à utiliser dans les ateliers (section 1 à 8) et partie ATELIERS à faire ( à partir de section 9)
 
 ## 1. Présentation du TP
 
