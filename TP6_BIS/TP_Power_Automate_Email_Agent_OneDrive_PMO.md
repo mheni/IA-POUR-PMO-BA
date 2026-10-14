@@ -267,7 +267,7 @@ Lire uniquement les emails de test contenant la charte.
 5. Ajoutez Content Conversion → `Html to text` / HTML en texte.
 6. Renommez l’action `CHARTE_TEXTE`.
 7. Dans Content, insérez le Body/Corps du déclencheur Outlook, pas Body Preview/Aperçu du corps.
-8. Ajoutez Data Operations → Compose/Composer et renommez l’action `TEXTE_CHARTE`.
+8. Ajoutez Data Operations → message et renommez l’action `TEXTE_CHARTE`(pour trouver message, taper JSON dans la recherche , afficher plus dans data operations et selectionner message.
 9. Dans ses entrées, sélectionnez la sortie texte de `CHARTE_TEXTE`.
 10. Enregistrez, lancez le test et envoyez l’email T01 préparé à l’exercice 1.
 11. Consultez les sorties de `TEXTE_CHARTE`. Le texte doit contenir l’ensemble du bloc métier.
