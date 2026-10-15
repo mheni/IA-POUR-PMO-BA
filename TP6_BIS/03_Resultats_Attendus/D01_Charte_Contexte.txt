@@ -1,0 +1,23 @@
+D01 — Charte et contexte
+
+D01 — Charte fictive du projet PORTAL-2026-042 — Version V1 — État 13/10/2026
+
+Client fictif : Collectivité NOVA. Projet : Modernisation d’un portail de services publics.
+
+Sponsor : Directrice de la transformation. PM : Amine Benali. BA : Claire Roux. Tous les rôles/personnes sont fictifs.
+
+Pilote cible : 15/12/2026, date à préserver comme cible, pas GO automatique.
+
+Budget projet approuvé dans le scénario : 320000 EUR. Une demande nouvelle n’a aucun budget additionnel approuvé sans décision explicite.
+
+Pilote : rendez-vous, demande d’attestation et suivi d’état de dossier ; 50 usagers pilotes, 25 agents internes ; volume cible 20000 dossiers/mois non encore testé en charge.
+
+Deux développeurs, un référent technique et deux experts métier à disponibilité partielle ; capacité exacte par exigence à confirmer.
+
+Une API fournisseur est requise ; accès de test non encore confirmé. Les exigences et critères doivent être validés par le métier ; sécurité/données par les fonctions habilitées.
+
+Hors pilote sans changement approuvé : WhatsApp, décision administrative autonome, collecte de données de santé, hausse budgétaire ou promesse de date non arbitrée.
+
+Toute communication externe, budget, périmètre et engagement de date restent soumis à validation humaine.
+
+Règle de traçabilité documentaire : conserver l’ID de demande, version de règles utilisée et statut de validation dans chaque livrable. Le terme de contrôle interne du cas est « Registre des réserves du pilote ».
