@@ -163,13 +163,13 @@ Résultat attendu : Une page de cartes et informations du projet, générée dan
 
 Point de contrôle : 65,72,216000,2retards,2menaces,1owner absent ; date16/10/2026/versionS01. Aucun champ calculé demandé.
 
-En cas de problème : Si Copilot absent, vérifier mode Edit, modèle sélectionné et droits/capacité ; ne pas chercher le volet autonome Copilot comme substitut à la création de page. La licence M365 Copilot n’est pas une preuve de capacité Power BI.
+En cas de problème : Si Copilot absent,  modèle sélectionné et droits/capacité ; ne pas chercher le volet autonome Copilot comme substitut à la création de page. La licence M365 Copilot n’est pas une preuve de capacité Power BI.
 
 ### Étape 5 — Vérifier et corriger les visuels
 
 Objectif : Contrôler la production IA sans connaissances de DAX.
 
-Point de départ : Rapport de synthèse généré, mode Edit.
+Point de départ : Rapport de synthèse généré.
 
 Manipulations :
 1. Comparer les cartes avec le tableau de contrôle S01.
@@ -236,7 +236,7 @@ En cas de problème : Le tronc commun peut s’arrêter à2rapports ; marquer ce
 
 Objectif : Assembler les visuels de plusieurs rapports.
 
-Point de départ : Rapport R_PMO_Synthese_G01 en mode Edit.
+Point de départ : Rapport R_PMO_Synthese_G01 .
 
 Manipulations :
 1. Survoler la carte Avancement ; cliquer l’icône épingle / Pin visual.
@@ -250,9 +250,9 @@ Manipulations :
 
 Valeur à saisir : TB_PMO_G01 ;6tuiles tronc commun,8ouplus avec extensions.
 
-Résultat attendu : Objet Tableau de bord visible dans le workspace.
+Résultat attendu : Objet Tableau de bord visible dans le workspace formé par les visualisations epinglés précedement .
 
-Point de contrôle : Cliquer une tuile ouvre le rapport qui l’alimente ; toutes viennent du workspace prévu.
+Point de contrôle : Cliquer sur un des vusuels ouvre le rapport qui l’alimente ; toutes viennent du rapport crée au préalable.
 
 En cas de problème : Ce n’est pas une commande Copilot de création native du dashboard : Copilot a créé les pages/visuels, l’épinglage crée l’objet dashboard. Le dashboard ne filtre pas globalement quatre modèles différents.
 
