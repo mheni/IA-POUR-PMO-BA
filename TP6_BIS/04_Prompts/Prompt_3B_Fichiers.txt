@@ -1,0 +1,24 @@
+OBJECTIF
+Compléter le flux cloud existant NOVA_Charte_Copilot pour enregistrer séparément les trois blocs de texte déjà extraits. Réutiliser les sorties existantes ; ne pas refaire le déclencheur, l’archivage ou le découpage.
+
+DÉCLENCHEUR ET CONTEXTE À CONSERVER
+Office 365 Outlook When a new email arrives (V3), Boîte de réception, filtre d’objet charte de projet, messages avec pièces jointes seulement. La pièce jointe Charte_Projet_NOVA.txt est téléchargée par PJ_CONTENU puis archivée par ARCHIVER_CHARTE dans /TP_NOVA/Copilot/Reception.
+Le flux contient déjà TEXTE_CHARTE, SECTIONS_TABLEAU, FORMAT_4_BLOCS, puis dans Vrai les trois Compose D01_TEXTE, D02_TEXTE et D03_TEXTE et la Condition SECTIONS_OK. Celle-ci vérifie le titre et un contenu au-delà du titre pour chaque bloc.
+
+ACTIONS
+Ajouter exactement trois actions OneDrive for Business Create file, en séquence, uniquement dans la branche Vrai de SECTIONS_OK :
+1. CREER_D01 : Folder Path = /TP_NOVA/Copilot/Sections ; File Name = D01_Charte_Contexte.txt ; File Content = sortie de D01_TEXTE.
+2. CREER_D02 : Folder Path = /TP_NOVA/Copilot/Sections ; File Name = D02_Regles_MoSCoW.txt ; File Content = sortie de D02_TEXTE.
+3. CREER_D03 : Folder Path = /TP_NOVA/Copilot/Sections ; File Name = D03_Controles_Echelles.txt ; File Content = sortie de D03_TEXTE.
+Le dossier a déjà été créé dans mon OneDrive. Je sélectionnerai le dossier réel et vérifierai la connexion.
+
+CONDITIONS
+Réutiliser les contrôles déjà validés. Si l’une des validations est fausse, conserver le diagnostic existant sans créer de fichier de section.
+Ne pas utiliser TEXTE_CHARTE dans ces trois contenus, car il contient le document entier. Ne pas donner la sortie de D01_TEXTE aux trois fichiers. Utiliser les trois jetons de sortie correspondants, pas des noms tapés en texte littéral.
+Ne pas modifier les noms imposés, ajouter de date, réécrire les paragraphes, exporter le préambule ou les marqueurs techniques.
+Pour les noms déjà présents, le participant nettoie manuellement les dossiers du TP avant chaque essai. Ne pas inventer une option d’écrasement dans Create file et ne pas ajouter de gestion de doublons.
+Aucune variable, boucle supplémentaire, approbation, agent, notification ou autre service.
+
+RÉSULTAT ATTENDU
+Trois fichiers TXT dans /TP_NOVA/Copilot/Sections : le premier contient uniquement D01 — Charte et contexte, le deuxième D02 — Règles MoSCoW, le troisième D03 — Contrôles et échelles, avec leurs titres et paragraphes.
+Si tu ne peux pas modifier ces cartes ou affecter une sortie dans ce concepteur, indiquer précisément la configuration à compléter manuellement, sans reconstruire le flux ni prétendre l’avoir testé.

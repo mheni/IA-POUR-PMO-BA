@@ -1,0 +1,35 @@
+OBJECTIF
+Compléter uniquement le flux existant NOVA_Charte_Copilot pour lire un fichier TXT UTF-8 puis identifier ses trois sections. Ne pas recréer le flux. Ne pas encore créer de fichiers de section.
+
+DÉCLENCHEUR EXISTANT À CONSERVER
+Office 365 Outlook When a new email arrives (V3), Boîte de réception, Subject Filter = charte de projet, Only with Attachments = true, Include Attachments = false.
+Il existe une boucle POUR_CHAQUE_PJ sur les pièces jointes, une condition NOM_CHARTE_OK sur Name = Charte_Projet_NOVA.txt, puis, dans Vrai, PJ_CONTENU (Get Attachment V2) et ARCHIVER_CHARTE (OneDrive for Business Create file) qui archive dans /TP_NOVA/Copilot/Reception.
+
+PROVENANCE ET FORMAT
+Réutiliser Content Bytes de PJ_CONTENU après le succès de ARCHIVER_CHARTE ; ces octets correspondent au fichier reçu et archivé. Ne pas télécharger à nouveau le document et ne pas reconstruire l’archivage.
+Le fichier est du texte brut UTF-8, pas un Word ni un PDF. Il contient un préambule, puis exactement trois marqueurs identiques [[SECTION]], un avant chaque titre :
+D01 — Charte et contexte
+D02 — Règles MoSCoW
+D03 — Contrôles et échelles
+Les marqueurs sont réservés à ces limites et n’apparaissent pas dans les paragraphes. Les titres font partie des blocs de sortie. Le bloc D01 se termine juste avant le marqueur précédant D02 ; D02 se termine juste avant le marqueur précédant D03 ; D03 se termine à la fin du fichier. Le préambule n’est pas une section.
+
+ACTIONS À AJOUTER APRÈS ARCHIVER_CHARTE, DANS LA MÊME BRANCHE
+1. Data Operation Compose nommé TEXTE_CHARTE : base64ToString appliqué à Content Bytes de PJ_CONTENU, via la référence dynamique appropriée. Ce décodage ne doit être effectué qu’une fois.
+2. Compose SECTIONS_TABLEAU : split(outputs('TEXTE_CHARTE'),'[[SECTION]]').
+3. Condition FORMAT_4_BLOCS : length(outputs('SECTIONS_TABLEAU')) égal au nombre 4.
+Dans Faux : Compose DIAG_FORMAT avec le message Format refusé : trois marqueurs [[SECTION]] sont requis. Aucun fichier de section créé.
+Dans Vrai seulement, trois Compose successifs :
+D01_TEXTE = trim(outputs('SECTIONS_TABLEAU')[1])
+D02_TEXTE = trim(outputs('SECTIONS_TABLEAU')[2])
+D03_TEXTE = trim(outputs('SECTIONS_TABLEAU')[3])
+4. Après ces trois Compose, toujours dans Vrai de FORMAT_4_BLOCS, Condition SECTIONS_OK, groupe ET de six règles : chaque bloc commence par son titre exact indiqué ci-dessus ET n’est pas égal à ce seul titre.
+Dans Faux : Compose DIAG_SECTIONS, message Sections refusées : vérifier les titres, leur ordre et les paragraphes.
+Laisser Vrai de SECTIONS_OK vide pour la partie suivante.
+
+CONDITIONS ET LIMITES
+Ne jamais accéder aux index 1, 2 ou 3 avant la branche Vrai du contrôle de longueur. Garder les réserves et tous les paragraphes inchangés ; ne pas analyser ni réécrire leur sens.
+Pas de variable, boucle supplémentaire, agent, extraction PDF/Word, approbation, notification ou connecteur externe.
+Le dossier de sortie prévu pour la partie suivante est /TP_NOVA/Copilot/Sections, mais ne pas encore créer D01_Charte_Contexte.txt, D02_Regles_MoSCoW.txt ou D03_Controles_Echelles.txt.
+
+RÉSULTAT ATTENDU
+Trois sorties textuelles distinctes et contrôlables dans l’historique. Une charte mal structurée mène à un diagnostic et ne produit pas de section finale. Réutiliser les actions existantes. Si l’édition ou une expression n’est pas prise en charge dans ce concepteur, expliquer l’ajout manuel précis au lieu de reconstruire le flux ou de prétendre l’avoir exécuté.
