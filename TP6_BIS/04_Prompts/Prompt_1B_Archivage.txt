@@ -1,0 +1,23 @@
+OBJECTIF
+Créer un second flux cloud automatisé nommé NOVA_Charte_Copilot, équivalent à mon flux manuel. Cas fictif : charte du projet PORTAL-2026-042 de la Collectivité NOVA. Utiliser uniquement Office 365 Outlook, OneDrive for Business et les contrôles intégrés.
+
+DÉCLENCHEUR
+Office 365 Outlook — When a new email arrives (V3), dans la Boîte de réception du compte connecté.
+Configurer Subject Filter = charte de projet ; Only with Attachments = true ; Include Attachments = false. L’objet doit contenir ce texte et le message doit avoir une pièce jointe.
+
+ACTIONS
+1. Une seule boucle Apply to each, nommée POUR_CHAQUE_PJ, sur Attachments du déclencheur.
+2. Dans cette boucle, une Condition nommée NOM_CHARTE_OK : Name de la pièce jointe courante égal à Charte_Projet_NOVA.txt.
+3. Uniquement dans Vrai : Get Attachment (V2), nommé PJ_CONTENU. Message Id vient du déclencheur ; Attachment Id vient de la pièce jointe courante.
+4. Puis OneDrive for Business Create file, nommé ARCHIVER_CHARTE : Folder Path = /TP_NOVA/Copilot/Reception ; File Name = Name de la pièce jointe courante ; File Content = Content Bytes de PJ_CONTENU.
+Les dossiers sont déjà créés dans mon OneDrive. Je sélectionnerai le dossier réel et vérifierai les connexions.
+
+CONDITIONS
+Objet non conforme ou aucune pièce jointe : ne rien créer.
+Nom différent de Charte_Projet_NOVA.txt : ne rien faire dans la branche Faux. S’il y a plusieurs pièces jointes, enregistrer uniquement celle dont le nom est exactement celui demandé.
+Ne pas lire ni analyser le document, ne pas extraire de texte, ne pas créer les fichiers D01/D02/D03 à ce stade.
+Ne pas ajouter d’agent, d’approbation, de variable, de connecteur premium, de notification, d’email sortant ou de boucle supplémentaire.
+
+RÉSULTAT ATTENDU
+Un fichier Charte_Projet_NOVA.txt dans /TP_NOVA/Copilot/Reception pour un nouvel email valide. Aucun fichier pour les cas invalides.
+Construire le flux le plus simple possible. Si une configuration ne peut pas être générée ici, ne pas inventer d’action : indiquer précisément ce qu’il faut compléter manuellement. Ne pas prétendre avoir testé le flux.
