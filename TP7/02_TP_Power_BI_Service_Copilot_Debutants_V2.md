@@ -256,52 +256,6 @@ Point de contrôle : Cliquer sur un des vusuels ouvre le rapport qui l’aliment
 
 En cas de problème : Ce n’est pas une commande Copilot de création native du dashboard : Copilot a créé les pages/visuels, l’épinglage crée l’objet dashboard. Le dashboard ne filtre pas globalement quatre modèles différents.
 
-### Étape 9 — Tester S02 et l’actualisation
-
-Objectif : Comprendre le pipeline source→modèle→rapport→tuile.
-
-Point de départ : Site source et workspace, S01 validée.
-
-Manipulations :
-1. Lire la fiche S02 : Tests/recette avance20→45, charge15→35h et coût3000→6000 ; KPI déjà recalculés67%/73%.
-2. Dans SharePoint, charger les quatre fichiers du dossier Sources/S02 sous les mêmes noms dans le dossier source initial ; choisir remplacement selon règles du site, sans supprimer/recréer les fichiers.
-3. Workspace : menu … de chaque modèle → Refresh now / Actualiser maintenant ; lire historique/paramètres si affichés.
-4. Le scénario fichier cloud peut synchroniser jusqu’àenviron1heure ; ne pas promettre effet immédiat ni considérer reload du navigateur comme refresh des données.
-5. Vérifier S02 dans CHAQUE rapport avant de lire le dashboard consolidé ; pas un mélangeS01/S02.
-6. Rafraîchir ensuite les visuels/ouvrir le dashboard, vérifier67/73/219000 ; sinon lire source/connexion/historique/cache.
-7. Si source initiale était un Upload local, cette opération SharePoint ne peut pas mettre à jour ce modèle : connexion cloud non validée.
-
-Valeur à saisir : Mêmes fichiers et objets, snapshotS02 fourni ; aucun calcul participant.
-
-Résultat attendu : Charge réellement actualisée ou limite identifiée, sans nouvelle page créée pour cacher un échec.
-
-Point de contrôle : La version visible est le garde-fou de cohérence entre quatre imports indépendants.
-
-En cas de problème : Si le modèle est une copie locale ou n’a pas de connexion cloud active, faire corriger le mode d’import par le responsable ; recréer un modèleS02 est un exercice statique, pas un pipeline actualisable.
-
-### Étape 10 — Partager et préparer le reporting hebdomadaire
-
-Objectif : Diffuser uniquement une vue validée.
-
-Point de départ : Dashboard cohérent et rapports enregistrés.
-
-Manipulations :
-1. Ouvrir TB_PMO_G01 ; Partager / Share vers les seuls comptes de formation autorisés.
-2. Vérifier accès et licence du destinataire ; un lien ne donne pas automatiquement droits/licence.
-3. Copier le lien du tableau de bord et compléter la fiche de validation.
-4. Rédiger trois messages de pilotage à partir des données vérifiées ; P6 peut aider mais ne voit que le rapport sélectionné.
-5. Pour la suite Power Automate, reprendre le TP d’envoi existant avec un message et ce lien validés ; aucune requête DAX/API ou extraction de KPI n’est demandée dans ce module débutant.
-6. Ne pas activer une planification de diffusion avant avoir validé chargement, rapports et tuiles.
-
-Valeur à saisir : URL réelle du dashboard relevée après création ; aucune adresse fournie par le pack.
-
-Résultat attendu : Vue partageable et préparation de reporting contrôlée.
-
-Point de contrôle : Jamais Publish to web ; chiffres et versions cohérents ; pas de décision automatiquement approuvée.
-
-En cas de problème : Si partage bloqué, vérifier licence/role/capacité avec administration ; ne pas rendre le modèle public ni changer billing pour terminer le TP.
-
-
 
 ### Contrôle de la navigation
 
