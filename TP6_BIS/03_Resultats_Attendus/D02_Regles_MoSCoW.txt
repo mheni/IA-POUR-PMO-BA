@@ -1,0 +1,21 @@
+D02 — Règles MoSCoW
+
+D02 — Règles MoSCoW pédagogiques — V1
+
+Must have : indispensable au but approuvé ou à une condition de passage documentée, sans alternative acceptable pour le pilote.
+
+Should have : valeur importante, avec contournement acceptable à court terme.
+
+Could have : confort/valeur complémentaire, sans blocage du pilote.
+
+Won’t have for now : explicitement exclu ou reporté du pilote, sans supprimer définitivement le besoin.
+
+Le classement de l’IA est une proposition, pas une priorité définitivement approuvée.
+
+Avant de trancher : but, périmètre, conséquence de non-réalisation, alternative, capacité, dépendances et source de validation.
+
+Urgent n’est pas synonyme de Must ; ne pas tout classer Must si moyens inconnus. Une obligation alléguée est à qualifier avec les experts.
+
+Si critères insuffisants, écrire « À arbitrer », proposer une catégorie conditionnelle ou demander les critères manquants.
+
+Les noms des catégories doivent rester ceux ci-dessus ; pas de nouvelle méthode WSJF inventée dans cet exercice.

@@ -1,0 +1,21 @@
+D03 — Contrôles et échelles
+
+D03 — Contrôles du pilote et échelles de risques fictives — V1
+
+Le client du cas impose : chaque usager ne consulte que ses propres dossiers ; absence de preuve d’habilitations bloque l’ouverture concernée. Les besoins d’accessibilité et de protection des données doivent être validés par les fonctions compétentes. Aucune conformité RGPD ni sanction n’est déduite automatiquement par un agent.
+
+Notification proposée : annoncer un changement d’état puis renvoyer au portail authentifié ; ne pas joindre de données sensibles au message.
+
+Échelle probabilité avant la cible 15/12 : 1 très faible,2 faible,3 possible,4 probable,5 presque certaine. Il s’agit d’estimations expertes à justifier, pas de fréquences statistiques.
+
+Impact : 1 mineur (≤1% coût/≤2jours ouvrés),2 limité (>1–3%/3–5j),3 significatif (>3–7%/6–10j),4 majeur (>7–15%/11–20j),5 sévère (>15%/>20j ou divulgation de données sensibles/condition de passage impérative violée). Retenir la dimension crédible la plus grave.
+
+Criticité=P×I : 1–4 faible,5–9 modérée,10–14 élevée,15–19 très élevée,20–25 critique. Score ne remplace pas urgence ni gate.
+
+Risque=futur incertain ; problème=réalisé ; hypothèse=condition à confirmer.
+
+Formulation : en raison de Cause, Événement pourrait survenir, entraînant Conséquence.
+
+Owner proposé n’est pas une personne engagée : confirmer mandat et disponibilité.
+
+Prévention avant événement ; correction sur défaut ; contingence activée sur déclencheur. Une cible résiduelle n’est pas une maîtrise prouvée.
