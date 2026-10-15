@@ -1,0 +1,18 @@
+﻿Référence;Critère;Statut manuel;Preuve manuel;Statut Copilot;Preuve Copilot;Corrections / limites
+V01;Compte et dossier source;;;;;
+V02;Objet et présence PJ filtrés;;;;;
+V03;Nom exact;;;;;
+V04;Archive lisible;;;;;
+V05;Décodage texte;;;;;
+V06;Quatre morceaux et garde;;;;;
+V07;D01 isolé;;;;;
+V08;D02 isolé;;;;;
+V09;D03 isolé;;;;;
+V10;Cas invalides refusés;;;;;
+V11;Noms et dossier sortie;;;;;
+V12;Trois sources distinctes;;;;;
+V13;Trois fichiers corrects;;;;;
+V14;Un seul flux actif;;;;;
+V15;Pas de complexité superflue;;;;;
+V16;Contribution Copilot qualifiée;;;;;
+V17;Provenance expliquée;;;;;
