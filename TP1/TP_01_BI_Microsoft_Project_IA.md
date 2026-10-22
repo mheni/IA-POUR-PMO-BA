@@ -529,7 +529,7 @@ Ne déduis pas une capacité d’une simple présence dans l’organigramme.
 4. Exercice de calendrier, dans une copie : ouvrir le calendrier BA et ajouter une absence le 05/11/2026. Affecter BA à I3 à l’atelier suivant et comparer les dates obtenues.
 5. Retirer l’exception ou revenir à la version sans absence avant la comparaison chiffrée du corrigé.
 
-Cette manipulation répond à une vraie question : une indisponibilité datée n’est pas la même chose qu’une capacité permanente réduite. [web:53][web:55]
+Cette manipulation répond à une vraie question : une indisponibilité datée n’est pas la même chose qu’une capacité permanente réduite. 
 
 ### Livrable
 
