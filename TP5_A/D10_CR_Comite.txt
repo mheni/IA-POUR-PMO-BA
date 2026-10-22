@@ -1,0 +1,7 @@
+D10 — Notes du comité projet — 16/04/2027 — prises de notes, compte rendu à valider
+Inès : les coûts réalisés sont de 144 kEUR et le reste à faire est de 108 kEUR ; la réserve est déjà incluse dans l'enveloppe de 240 kEUR.
+Hugo : le fournisseur annonce le 14 mai ; j'attends sa confirmation écrite le 19 avril.
+Léa : je peux proposer un scénario de périmètre réduit ; je n'ai pas reçu mandat de retirer la sécurité ou l'accessibilité.
+Samir : deux bloquantes ouvertes, dont AN-017 ; les résultats détaillés des audits restent à obtenir.
+Claire : préparez les variantes coût/délai/périmètre et les risques ; je ne valide aucun budget supplémentaire aujourd'hui.
+Aucune décision de changement de baseline n'a été prise pendant cette réunion. Diffusion prévue : équipe projet ; synthèse COPIL à préparer. Liste des destinataires réels et date du COPIL absentes.
