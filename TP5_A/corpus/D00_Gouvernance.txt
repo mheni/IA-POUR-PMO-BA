@@ -1,0 +1,14 @@
+D00 — Règles du projet NOVA — v1.0 — 04/01/2027 — approuvé pour exercice
+Toutes les organisations, personnes, données et décisions ci-dessous sont fictives.
+Projet : NOVA, portail des démarches de la Communauté territoriale de Val-Rivière (collectivité fictive).
+Commanditaire : Claire Martin, directrice générale des services (DGS).
+PO : Léa Bernard ; AMOA : Samir Diallo ; chef de projet : Hugo Perrin ; PMO : Inès Robert.
+RSSI : Nora Petit ; DPO : Marc Simon ; référente accessibilité : Alice Roy.
+Ces noms ne désignent aucun collaborateur réel de CGI ni aucun client.
+Le COPIL arbitre budget, date et périmètre. Le chef de projet prépare les propositions. Le PO propose l'ordre du backlog. L'AMOA organise la validation des exigences et la recette. Le PMO consolide les preuves et alertes.
+Aucune proposition IA ne vaut décision. Une décision doit posséder un identifiant, une autorité, une date et un statut approuvé dans un document autorisé. La date d'un document seule ne prouve pas son approbation.
+Règle de conflit : identifier les deux références, versions et statuts ; conserver la référence approuvée pour le baseline ; présenter l'autre valeur comme proposition ou contradiction à arbitrer. Ne jamais fusionner silencieusement.
+Les règles décrites sont pédagogiques et ne représentent pas les procédures internes CGI. Adapter les livrables aux modèles et circuits CGI/client autorisés par la mission.
+Classification pédagogique : PUBLIC-TP pour les données ordinaires ; RESTREINT-SYNTHETIQUE pour la note de sécurité de test, exclue des synthèses publiques. Ce marquage n'est pas un contrôle d'accès technique.
+Jalons de décision : GO de recette par responsable métier ; GO de production par commanditaire après avis RSSI, DPO et accessibilité selon gouvernance applicable. Pas de validation automatique.
+Documentation projet : les titres et paragraphes de D01 à D11 constituent les références. Les sources externes servent au cadrage général et ne remplacent pas une validation juridique ou sécurité.

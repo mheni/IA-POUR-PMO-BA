@@ -1,0 +1,7 @@
+D11 — Modèle de reporting — v1.0 — 04/01/2027 — PÉDAGOGIQUE
+Titre ; date de situation ; sources et versions ; périmètre.
+Tableau indicateurs : indicateur | baseline | constat/prévision | formule et unité | couleur selon D06 | preuve | limite.
+Sections : faits établis ; hypothèses explicites ; informations manquantes ; alertes ; décisions demandées (non prises) ; plan d'action ; prochaine revue à confirmer.
+Plan d'action : ID | action | responsable nommé ou proposé | échéance validée ou proposée | statut | preuve de clôture.
+Compte rendu : participants d'après notes | faits | échanges | décisions documentées seulement | actions | points en suspens | statut de validation du CR.
+Aucun email ne doit être envoyé par l'assistant. Il rédige un brouillon à copier/revoir.

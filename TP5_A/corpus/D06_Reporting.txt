@@ -1,0 +1,9 @@
+D06 — Point PMO — v1.0 — situation arrêtée au 16/04/2027 — CONSOLIDÉ POUR ANALYSE
+Budget total approuvé BAC = 240 000 EUR HT ; réserve incluse = 20 000 EUR HT.
+Coût réalisé AC = 144 000 EUR HT ; reste à faire réestimé ETC = 108 000 EUR HT. ETC exclut AC et inclut les travaux restant prévus, sans poste de réserve séparé à additionner.
+Aucune valeur acquise EV ni valeur planifiée PV fournie. Ne pas calculer CPI ou SPI sur la seule base du pourcentage consommé.
+Livraison réalisation baseline 30/04/2027 ; prévision fournisseur 14/05/2027 : écart de 14 jours calendaires. Entrée recette baseline 03/05/2027 affectée.
+Tests exécutés à cette date sur incréments disponibles : 40 ; tests réussis 30 ; tests échoués 10 ; non exécutés 20 sur campagne prévue 60. Taux de réussite parmi exécutés = 30/40 ; couverture d'exécution = 40/60. Ne pas confondre ces dénominateurs. Les tests précoces ne remplacent pas la recette complète L4.
+Anomalies ouvertes : 2 bloquantes, 5 majeures, 3 mineures. Répartition des 10 tests échoués non documentée : ne pas associer automatiquement une anomalie à un test.
+Actions : A01 faire confirmer planning fournisseur — responsable chef de projet — échéance 19/04/2027 — en cours ; A02 arbitrer règles d'accès — responsable RSSI avec métier — échéance 20/04/2027 — à lancer ; A03 préparer scénarios de reprise recette — responsable AMOA — échéance 21/04/2027 — à lancer.
+Seuils pédagogiques de reporting : coût rouge si EAC > BAC ; ambre si EAC entre 95 % et 100 % BAC inclus ; délai rouge si prévision dépasse jalon approuvé ; qualité rouge si bloquante ouverte ; sinon ambre si campagne incomplète. Ces seuils ne sont pas une politique CGI.

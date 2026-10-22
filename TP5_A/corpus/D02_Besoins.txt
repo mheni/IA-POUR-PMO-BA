@@ -1,0 +1,14 @@
+D02 — Cahier des besoins NOVA — v1.0 — 29/01/2027 — VALIDÉ MÉTIER
+B01 : un citoyen dépose une demande parmi trois démarches pilotes sans se déplacer.
+B02 : le citoyen joint uniquement les pièces requises pour la démarche ; une liste par démarche reste à valider.
+B03 : le citoyen reçoit un accusé de dépôt comportant référence et horodatage ; il ne constitue pas une décision d'acceptation administrative.
+B04 : le citoyen consulte le statut de ses propres demandes, pas celui des autres usagers.
+B05 : l'agent instructeur affecté consulte et traite les dossiers de son périmètre ; matrice fine d'habilitation à valider par métier et RSSI.
+B06 : les changements de statut déclenchent une notification générique sans contenu sensible ; canal et délai de service à préciser.
+B07 : l'interface doit être accessible ; audit et critères applicables à définir avec référente accessibilité.
+B08 : un agent guichet accompagne les personnes éloignées du numérique, avec traçabilité des interventions.
+B09 : le service doit être rapide en période de pointe. Charge cible, percentile, seuil et protocole de mesure non validés.
+B10 : le service protège les données et conserve un historique proportionné. Durées, finalités, base légale et habilitations à définir avec DPO/RSSI.
+B11 : les instructeurs demandent un export de pilotage agrégé ; aucune extraction nominative publique n'est autorisée.
+B12 : les élus souhaitent connaître le taux de dépôts en ligne sans accéder aux pièces individuelles.
+Une demande orale de paiement en ligne existe ; elle n'est pas validée et reste hors périmètre D01.

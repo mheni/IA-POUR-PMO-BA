@@ -1,0 +1,7 @@
+D08 — Registre initial — v0.1 — 16/04/2027 — À VALIDER
+Échelle pédagogique : probabilité P de 1 très faible à 5 très forte ; impact I de 1 faible à 5 critique ; score P×I ; 15–25 élevé, 6–14 modéré, 1–5 faible. Ce score n'est ni une probabilité calculée ni une perte attendue en euros.
+R01 : si le fournisseur tarde, alors recette/production peuvent dériver ; P4 I4 ; réponse proposée : confirmer livraison, prioriser le périmètre avec PO ; propriétaire proposé chef de projet ; preuve de réduction absente.
+R02 : si les habilitations sont trop larges, alors exposition de dossiers personnels ; P3 I5 ; réponse proposée : matrice rôles et tests négatifs ; propriétaire proposé RSSI ; preuve absente.
+R03 : si l'accessibilité est traitée trop tard, alors exclusion d'usagers et reprise de conception ; P3 I4 ; réponse proposée : revue anticipée et audit ; propriétaire proposé référente accessibilité ; preuve absente.
+R04 : si règles de conservation absentes, alors surconservation ; P3 I4 ; réponse proposée : atelier DPO ; propriétaire proposé DPO ; preuve absente.
+Le retard fournisseur est désormais aussi un problème constaté via AL-01 : distinguer problème actuel, risque futur et actions. Aucun risque résiduel mesuré n'est fourni.

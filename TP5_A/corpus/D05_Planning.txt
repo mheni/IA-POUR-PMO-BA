@@ -1,0 +1,10 @@
+D05 — Planning synthétique baseline — v1.0 — 04/01/2027 — APPROUVÉ avec DEC-001
+Lot | Début | Fin | Prédécesseur fin-début | Responsable proposé
+L1 Cadrage/besoins | 04/01/2027 | 29/01/2027 | aucun | AMOA
+L2 Conception fonctionnelle et technique | 01/02/2027 | 26/02/2027 | L1 | chef de projet
+L3 Réalisation | 01/03/2027 | 30/04/2027 | L2 | responsable réalisation
+L4 Recette et audits | 03/05/2027 | 28/05/2027 | L3 | responsable recette
+L5 Comité GO | 02/06/2027 | 02/06/2027 | L4 | DGS
+L6 Mise en service | 07/06/2027 | 07/06/2027 | L5 | DSI
+Dates pédagogiques : aucun calendrier de jours fériés, disponibilité nominative ou réseau détaillé n'est fourni. Ne pas prétendre calculer un chemin critique contractuel à partir de ce seul résumé.
+Alerte AL-01 du 16/04/2027 : le fournisseur annonce une livraison complète le 14/05/2027 au lieu du 30/04/2027. Estimation fournisseur, non approuvée. Sans chevauchement, la recette ne peut commencer avant cette livraison. Toute nouvelle date de production nécessite replanification, validation des capacités et arbitrage, pas une simple compression des contrôles.

@@ -1,0 +1,9 @@
+D04 — Compte rendu atelier métiers — v0.1 — 08/02/2027 — NON VALIDÉ
+Participants fictifs : PO, AMOA, responsable guichet, représentant instruction.
+AT-01 : « Il faut que cela soit rapide, même quand tout le monde se connecte. » Aucun chiffre de charge n'a été convenu.
+AT-02 : « Nous voulons garder tous les justificatifs pour toujours. » Proposition métier non validée par DPO.
+AT-03 : « Chaque agent doit voir tous les dossiers pour aller plus vite. » En contradiction potentielle avec D02 B05 ; habilitations à arbitrer.
+AT-04 : « Envoyer automatiquement un accusé dès le dépôt finalisé. » Accord de principe ; aucun délai chiffré convenu.
+AT-05 : « Si l'identifiant d'un dossier est connu, le lien doit permettre de le consulter sans autre vérification. » Proposition non validée, incompatible avec protection attendue de B04.
+AT-06 : l'assistant vocal du portail pourrait être ajouté plus tard ; aucune décision ni estimation.
+AT-07 : les démarches exactes et objectifs de D01 sont confirmés, sans modification de baseline.

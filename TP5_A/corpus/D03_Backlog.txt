@@ -1,0 +1,11 @@
+D03 — Backlog de départ — v0.2 — 01/02/2027 — BROUILLON PO
+ID | Besoin | Intitulé | Priorité proposée | Effort pédagogique | Dépendances
+US-01 | B01 | Choisir une démarche et saisir une demande | Must | 8 | catalogue validé
+US-02 | B02 | Déposer les justificatifs | Must | 8 | US-01, liste des pièces validée
+US-03 | B03 | Obtenir un accusé de dépôt | Must | 5 | US-01
+US-04 | B04 | Consulter ses dossiers | Must | 8 | authentification et règles d'accès à valider
+US-05 | B05 | Instruire un dossier affecté | Must | 13 | US-01, matrice d'habilitation
+US-06 | B06 | Recevoir une notification générique | Should | 5 | US-03, canal à décider
+US-07 | B11 | Consulter des statistiques agrégées | Could | 5 | événements de dépôt
+US-08 | hors périmètre | Payer en ligne | Won't this time | non estimé | arbitrage de périmètre
+Efforts en points fictifs, sans conversion automatique en jours. La capacité de sprint et la vélocité sont inconnues. L'accessibilité et la sécurité sont transverses : ne pas les reléguer à une option Could.
