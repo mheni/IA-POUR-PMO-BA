@@ -371,7 +371,7 @@ Ces repères viennent des noms de vues et de fonctions cités dans la documentat
 
 Le TP1 a structuré NOVALIS Distribution BI en phases, tâches, jalons, durées, liens et ressources, puis étudié chemin critique, optimisation et baseline. Le TP2 conserve le domaine métier et crée un fichier distinct, sans convertir mécaniquement les tâches en User Stories.
 
-NOVALIS souhaite obtenir rapidement une première lecture fiable des ventes, puis enrichir la solution avec les utilisateurs. Produit : service BI interne permettant d’analyser ventes, régions, magasins, produits et rentabilité. Périmètre pilote : janvier et février 2026, deux régions, quatre magasins, trois produits, deux catégories et trois codes clients. Monnaie : TND ; montants nets hors taxes. Hors périmètre : comptabilité légale, prévisions automatiques, données personnelles réelles et développement de connecteurs.
+NOVALIS souhaite obtenir rapidement une première lecture fiable des ventes, puis enrichir la solution avec les utilisateurs. Produit : service BI interne permettant d’analyser ventes, régions, magasins, produits et rentabilité. Périmètre pilote : janvier et février 2026, deux régions, quatre magasins, trois produits, deux catégories et trois codes clients. Monnaie : Euro ; montants nets hors taxes. Hors périmètre : comptabilité légale, prévisions automatiques, données personnelles réelles et développement de connecteurs.
 
 | Nom | Position dans le cas | Besoin / responsabilité |
 |---|---|---|
@@ -495,7 +495,7 @@ Backlog (aucun sprint)   Étape 13 (éléments non Done, puis nouvelle Planning)
 
 ## Partie 2 — Préparer le produit
 
-> **Sigles de cette partie** : IA = intelligence artificielle ; BI = Business Intelligence (informatique décisionnelle) ; PBI = Product Backlog Item (élément du Product Backlog) ; PO = Product Owner ; DoD = Definition of Done ; US = User Story ; PMO = Project Management Office ; PSPO I = Professional Scrum Product Owner I ; TND = dinar tunisien ; HT = hors taxes ; CA = chiffre d’affaires ; KPI = indicateur clé de performance ; TP = travaux pratiques ; TP1 = premier TP (planning prédictif NOVALIS).
+> **Sigles de cette partie** : IA = intelligence artificielle ; BI = Business Intelligence (informatique décisionnelle) ; PBI = Product Backlog Item (élément du Product Backlog) ; PO = Product Owner ; DoD = Definition of Done ; US = User Story ; PMO = Project Management Office ; PSPO I = Professional Scrum Product Owner I ; Euro = Euro ; HT = hors taxes ; CA = chiffre d’affaires ; KPI = indicateur clé de performance ; TP = travaux pratiques ; TP1 = premier TP (planning prédictif NOVALIS).
 
 ### Étape 1 — Comprendre le passage du prédictif à Scrum
 
@@ -1042,14 +1042,14 @@ Backlog initial : 12 PBI, 47 points. Les horizons S2 sont des hypothèses, pas d
 
 - Formulation : « En tant que direction commerciale, je veux consulter le CA par mois, afin de repérer les variations de ventes. »
 - Valeur : Première lecture commune du CA.
-- Critères testables : Janvier 40 000 TND ; février 50 000 ; cumul 90 000. Le filtre janvier conserve seulement janvier. Une période vide affiche « Aucune vente », sans erreur.
+- Critères testables : Janvier 40 000 Euro ; février 50 000 ; cumul 90 000. Le filtre janvier conserve seulement janvier. Une période vide affiche « Aucune vente », sans erreur.
 - Ordre initial : 1 ; taille relative illustrative : 5 points.
 - Contraintes : Source contrôlée ; aucun PBI préalable requis.
 - Horizon initial : Sprint 1.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] Janvier 40 000 TND ; février 50 000 ; cumul 90 000.
+- [ ] Janvier 40 000 Euro ; février 50 000 ; cumul 90 000.
 - [ ] Le filtre janvier conserve seulement janvier.
 - [ ] Une période vide affiche « Aucune vente », sans erreur.
 
@@ -1057,14 +1057,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que responsable régional, je veux filtrer les ventes par région, afin de cibler les zones nécessitant une action. »
 - Valeur : Cibler les actions régionales.
-- Critères testables : Nord 54 000 TND, Sud 36 000 sur les deux mois ; Nord + janvier = 24 000 ; effacer le filtre rétablit 90 000.
+- Critères testables : Nord 54 000 Euro, Sud 36 000 sur les deux mois ; Nord + janvier = 24 000 ; effacer le filtre rétablit 90 000.
 - Ordre initial : 2 ; taille relative illustrative : 3 points.
 - Contraintes : Socle US01 réutilisable ; réalisation conjointe possible.
 - Horizon initial : Sprint 1.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] Nord 54 000 TND, Sud 36 000 sur les deux mois
+- [ ] Nord 54 000 Euro, Sud 36 000 sur les deux mois
 - [ ] Nord + janvier = 24 000
 - [ ] effacer le filtre rétablit 90 000.
 
@@ -1072,14 +1072,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que analyste métier, je veux classer les produits par CA, afin de préparer une recommandation d’assortiment. »
 - Valeur : Identifier les contributeurs principaux.
-- Critères testables : P01 45 000, P02 28 000, P03 17 000 TND, tri décroissant. Janvier : 20 000, 12 000, 8 000. Le classement suit les filtres.
+- Critères testables : P01 45 000, P02 28 000, P03 17 000 Euro, tri décroissant. Janvier : 20 000, 12 000, 8 000. Le classement suit les filtres.
 - Ordre initial : 3 ; taille relative illustrative : 5 points.
 - Contraintes : Source de ventes commune ; codes produits à clarifier.
 - Horizon initial : Sprint 1.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] P01 45 000, P02 28 000, P03 17 000 TND, tri décroissant.
+- [ ] P01 45 000, P02 28 000, P03 17 000 Euro, tri décroissant.
 - [ ] Janvier : 20 000, 12 000, 8 000.
 - [ ] Le classement suit les filtres.
 
@@ -1087,14 +1087,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que contrôle de gestion, je veux consulter marge et taux de marque, afin de apprécier la rentabilité. »
 - Valeur : Éviter la confusion entre volume et rentabilité.
-- Critères testables : Cumul : CA 90 000, coût 63 000, marge 27 000 TND, taux de marque 30 %. Janvier : marge 10 800 et 27 %. CA nul : taux non calculable.
+- Critères testables : Cumul : CA 90 000, coût 63 000, marge 27 000 Euro, taux de marque 30 %. Janvier : marge 10 800 et 27 %. CA nul : taux non calculable.
 - Ordre initial : 4 ; taille relative illustrative : 5 points.
 - Contraintes : Coûts et formules validés ; taux calculé sur les agrégats.
 - Horizon initial : Sprint 2, hypothèse.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] Cumul : CA 90 000, coût 63 000, marge 27 000 TND, taux de marque 30 %.
+- [ ] Cumul : CA 90 000, coût 63 000, marge 27 000 Euro, taux de marque 30 %.
 - [ ] Janvier : marge 10 800 et 27 %.
 - [ ] CA nul : taux non calculable.
 
@@ -1102,28 +1102,28 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que responsable régional, je veux comparer les magasins, afin de repérer les écarts de performance. »
 - Valeur : Préparer leur accompagnement.
-- Critères testables : N1 32 000, N2 22 000, S1 20 000, S2 16 000 TND ; filtre Nord : N1/N2 seulement, total 54 000.
+- Critères testables : N1 32 000, N2 22 000, S1 20 000, S2 16 000 Euro ; filtre Nord : N1/N2 seulement, total 54 000.
 - Ordre initial : 5 ; taille relative illustrative : 3 points.
 - Contraintes : US02 utile ; comparaison descriptive, sans causalité supposée.
 - Horizon initial : Sprint 2, hypothèse.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] N1 32 000, N2 22 000, S1 20 000, S2 16 000 TND
+- [ ] N1 32 000, N2 22 000, S1 20 000, S2 16 000 Euro
 - [ ] filtre Nord : N1/N2 seulement, total 54 000.
 
 ##### US06 — Comparer deux périodes
 
 - Formulation : « En tant que direction commerciale, je veux comparer février à janvier, afin de détecter la croissance ou le recul. »
 - Valeur : Lire une évolution explicite.
-- Critères testables : 50 000 contre 40 000 TND : +10 000 et +25 %. Les périodes sont affichées. Référence zéro : pourcentage non calculable, sans erreur.
+- Critères testables : 50 000 contre 40 000 Euro : +10 000 et +25 %. Les périodes sont affichées. Référence zéro : pourcentage non calculable, sans erreur.
 - Ordre initial : 6 ; taille relative illustrative : 5 points.
 - Contraintes : US01 ; convention de comparaison explicite.
 - Horizon initial : Sprint 2, hypothèse.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] 50 000 contre 40 000 TND : +10 000 et +25 %.
+- [ ] 50 000 contre 40 000 Euro : +10 000 et +25 %.
 - [ ] Les périodes sont affichées.
 - [ ] Référence zéro : pourcentage non calculable, sans erreur.
 
@@ -1131,14 +1131,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que analyste métier, je veux analyser les ventes par catégorie, afin de adapter les actions commerciales. »
 - Valeur : Relier résultats et portefeuille.
-- Critères testables : Équipement P01+P02 : 73 000 TND ; Accessoires P03 : 17 000. Janvier : 32 000 et 8 000. Le filtre catégorie actualise le total.
+- Critères testables : Équipement P01+P02 : 73 000 Euro ; Accessoires P03 : 17 000. Janvier : 32 000 et 8 000. Le filtre catégorie actualise le total.
 - Ordre initial : 7 ; taille relative illustrative : 3 points.
 - Contraintes : Référentiel produits fiable.
 - Horizon initial : Aucun sprint.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] Équipement P01+P02 : 73 000 TND ; Accessoires P03 : 17 000.
+- [ ] Équipement P01+P02 : 73 000 Euro ; Accessoires P03 : 17 000.
 - [ ] Janvier : 32 000 et 8 000.
 - [ ] Le filtre catégorie actualise le total.
 
@@ -1146,14 +1146,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que direction commerciale, je veux voir les principaux clients contributeurs, afin de préparer les revues de comptes. »
 - Valeur : Cibler les revues commerciales.
-- Critères testables : C01 45 000, C02 28 000, C03 17 000 TND ; seuls les codes autorisés apparaissent ; filtre période appliqué.
+- Critères testables : C01 45 000, C02 28 000, C03 17 000 Euro ; seuls les codes autorisés apparaissent ; filtre période appliqué.
 - Ordre initial : 8 ; taille relative illustrative : 5 points.
 - Contraintes : Codes pseudonymisés, accès autorisé.
 - Horizon initial : Aucun sprint.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] C01 45 000, C02 28 000, C03 17 000 TND
+- [ ] C01 45 000, C02 28 000, C03 17 000 Euro
 - [ ] seuls les codes autorisés apparaissent
 - [ ] filtre période appliqué.
 
@@ -1161,14 +1161,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que analyste métier, je veux exporter les résultats filtrés, afin de éviter une ressaisie. »
 - Valeur : Réutiliser les résultats.
-- Critères testables : Export Nord : N1/N2 uniquement, cumul 54 000 TND ; période et filtres indiqués ; montants numériques ; format CSV ou XLSX convenu.
+- Critères testables : Export Nord : N1/N2 uniquement, cumul 54 000 Euro ; période et filtres indiqués ; montants numériques ; format CSV ou XLSX convenu.
 - Ordre initial : 9 ; taille relative illustrative : 3 points.
 - Contraintes : Une vue filtrée exploitable existe.
 - Horizon initial : Aucun sprint.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] Export Nord : N1/N2 uniquement, cumul 54 000 TND
+- [ ] Export Nord : N1/N2 uniquement, cumul 54 000 Euro
 - [ ] période et filtres indiqués
 - [ ] montants numériques
 - [ ] format CSV ou XLSX convenu.
@@ -1192,14 +1192,14 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que contrôle de gestion, je veux accéder aux définitions des indicateurs, afin de interpréter les chiffres de façon homogène. »
 - Valeur : Réduire les interprétations contradictoires.
-- Critères testables : Dictionnaire : CA net HT en TND, coût, marge = CA − coût, taux de marque = marge / CA ; périodes explicites ; chaque indicateur renvoie à sa définition.
+- Critères testables : Dictionnaire : CA net HT en Euro, coût, marge = CA − coût, taux de marque = marge / CA ; périodes explicites ; chaque indicateur renvoie à sa définition.
 - Ordre initial : 11 ; taille relative illustrative : 2 points.
 - Contraintes : Dictionnaire utilisateur enrichi ; documentation minimale de DoD dès S1.
 - Horizon initial : Aucun sprint.
 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
-- [ ] Dictionnaire : CA net HT en TND, coût, marge = CA − coût, taux de marque = marge / CA
+- [ ] Dictionnaire : CA net HT en Euro, coût, marge = CA − coût, taux de marque = marge / CA
 - [ ] périodes explicites
 - [ ] chaque indicateur renvoie à sa définition.
 
@@ -1207,7 +1207,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 
 - Formulation : « En tant que direction commerciale, je veux ouvrir une synthèse dédiée, afin de préparer rapidement le comité. »
 - Valeur : Réduire le temps de préparation.
-- Critères testables : CA, marge et variation affichés sans ressaisie ; cumul 90 000 TND, marge 27 000, variation février/janvier +25 % ; filtres et fraîcheur visibles.
+- Critères testables : CA, marge et variation affichés sans ressaisie ; cumul 90 000 Euro, marge 27 000, variation février/janvier +25 % ; filtres et fraîcheur visibles.
 - Ordre initial : 12 ; taille relative illustrative : 5 points.
 - Contraintes : US04/US06 terminées ; dépendances à inspecter.
 - Horizon initial : Aucun sprint.
@@ -1215,7 +1215,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
 
 - [ ] CA, marge et variation affichés sans ressaisie
-- [ ] cumul 90 000 TND, marge 27 000, variation février/janvier +25 %
+- [ ] cumul 90 000 Euro, marge 27 000, variation février/janvier +25 %
 - [ ] filtres et fraîcheur visibles.
 
 ##### Principes d’ordonnancement
@@ -2046,7 +2046,7 @@ Points restants : 13, 13, 13, 13, 13, 13, 8, 8, 5, 5, 0. Ces données sont fourn
 
 ## Partie 4 — S’adapter et inspecter
 
-> **Sigles de cette partie** : IA = intelligence artificielle ; BI = Business Intelligence (informatique décisionnelle) ; PBI = Product Backlog Item (élément du Product Backlog) ; PO = Product Owner ; DoD = Definition of Done ; US = User Story ; PSPO I = Professional Scrum Product Owner I ; TND = dinar tunisien ; CA = chiffre d’affaires ; TP = travaux pratiques ; J0 = jour 0 du Sprint (J1 à J10 : jours ouvrés suivants).
+> **Sigles de cette partie** : IA = intelligence artificielle ; BI = Business Intelligence (informatique décisionnelle) ; PBI = Product Backlog Item (élément du Product Backlog) ; PO = Product Owner ; DoD = Definition of Done ; US = User Story ; PSPO I = Professional Scrum Product Owner I ; Euro = Euro ; CA = chiffre d’affaires ; TP = travaux pratiques ; J0 = jour 0 du Sprint (J1 à J10 : jours ouvrés suivants).
 
 ### Étape 10 — Simuler un changement de priorité en cours de sprint
 
@@ -2160,11 +2160,11 @@ US13 — Mesurer l’atteinte des objectifs commerciaux.
 
 Taille illustrative après clarification par les Developers : 3 points ; prévision de travail S3 : 12 h, sans conversion automatique.
 
-Critères : Nord, objectif 35 000 / réel 30 000 TND → 85,71 %, écart −5 000 ; Sud, objectif 25 000 / réel 20 000 → 80 %, écart −5 000. Global : 50 000 / 60 000 = 83,33 %, pas la moyenne simple des taux ; écart −10 000. Cible zéro : Non calculable. Mois, source et version des cibles visibles. Cibles définitives fournies fin S2.
+Critères : Nord, objectif 35 000 / réel 30 000 Euro → 85,71 %, écart −5 000 ; Sud, objectif 25 000 / réel 20 000 → 80 %, écart −5 000. Global : 50 000 / 60 000 = 83,33 %, pas la moyenne simple des taux ; écart −10 000. Cible zéro : Non calculable. Mois, source et version des cibles visibles. Cibles définitives fournies fin S2.
 
 Liste de contrôle Planner de US13 (une case par critère) :
 
-- [ ] Nord, objectif 35 000 / réel 30 000 TND → 85,71 %, écart −5 000 ; Sud, objectif 25 000 / réel 20 000 → 80 %, écart −5 000.
+- [ ] Nord, objectif 35 000 / réel 30 000 Euro → 85,71 %, écart −5 000 ; Sud, objectif 25 000 / réel 20 000 → 80 %, écart −5 000.
 - [ ] Global : 50 000 / 60 000 = 83,33 %, pas la moyenne simple des taux ; écart −10 000.
 - [ ] Cible zéro : Non calculable.
 - [ ] Mois, source et version des cibles visibles.
@@ -2457,7 +2457,7 @@ DoD pédagogique, commune à chaque Increment :
 9. Mise à disposition dans le pilote convenu, sans défaut bloquant connu, consigne d’accès disponible.
 10. Preuves et limites accessibles à la Scrum Team.
 
-Exemple : US01 = janvier 40 000 TND ; DoD = tests, réconciliation, documentation, intégration et accès ; retour métier = demande ultérieure de comparaison.
+Exemple : US01 = janvier 40 000 Euro ; DoD = tests, réconciliation, documentation, intégration et accès ; retour métier = demande ultérieure de comparaison.
 
 Les preuves sont simulées : US01 conforme J6, US02 J8, US03 J10. Elles ne certifient pas une solution BI réellement développée.
 
@@ -2795,7 +2795,7 @@ Une archive du plan (capture ou export) n’est ni une clôture Scrum avec valid
 
 ## Annexe C — Données de référence
 
-> **Sigles de cette partie** : BI = Business Intelligence (informatique décisionnelle) ; DoD = Definition of Done ; US = User Story ; TND = dinar tunisien ; HT = hors taxes ; CA = chiffre d’affaires.
+> **Sigles de cette partie** : BI = Business Intelligence (informatique décisionnelle) ; DoD = Definition of Done ; US = User Story ; Euro = Euro ; HT = hors taxes ; CA = chiffre d’affaires.
 
 Cette annexe regroupe les données de référence du TP. Les valeurs sont identiques à celles du TP source.
 
@@ -2803,9 +2803,9 @@ Cette annexe regroupe les données de référence du TP. Les valeurs sont identi
 
 | Indicateur | Janvier | Février | Cumul |
 |---|---:|---:|---:|
-| CA net HT TND | 40 000 | 50 000 | 90 000 |
-| Coût d’achat TND | 29 200 | 33 800 | 63 000 |
-| Marge commerciale TND | 10 800 | 16 200 | 27 000 |
+| CA net HT Euro | 40 000 | 50 000 | 90 000 |
+| Coût d’achat Euro | 29 200 | 33 800 | 63 000 |
+| Marge commerciale Euro | 10 800 | 16 200 | 27 000 |
 | Taux de marque = marge / CA | 27 % | 32,4 % | 30 % |
 
 | Répartition | Janvier | Février | Cumul |
@@ -2820,7 +2820,7 @@ Cette annexe regroupe les données de référence du TP. Les valeurs sont identi
 | P02 / C02 | 12 000 | 16 000 | 28 000 |
 | P03 / C03 | 8 000 | 9 000 | 17 000 |
 
-P01 et P02 appartiennent à Équipement ; P03 à Accessoires. Les codes C01/C02/C03 sont pseudonymisés. Variation février/janvier : +10 000 TND, soit +25 %. Ces agrégats servent à simuler les vérifications sans construire un tableau de bord réel. Ils ne doivent pas être saisis comme tâches dans Project.
+P01 et P02 appartiennent à Équipement ; P03 à Accessoires. Les codes C01/C02/C03 sont pseudonymisés. Variation février/janvier : +10 000 Euro, soit +25 %. Ces agrégats servent à simuler les vérifications sans construire un tableau de bord réel. Ils ne doivent pas être saisis comme tâches dans Project.
 
 Pourquoi ? Une marge doit avoir une formule, un périmètre et une unité. Le taux de marque rapporté au CA ne se confond pas avec un taux rapporté au coût.
 
@@ -2915,7 +2915,7 @@ DoD pédagogique, commune à chaque Increment :
 9. Mise à disposition dans le pilote convenu, sans défaut bloquant connu, consigne d’accès disponible.
 10. Preuves et limites accessibles à la Scrum Team.
 
-Exemple : US01 = janvier 40 000 TND ; DoD = tests, réconciliation, documentation, intégration et accès ; retour métier = demande ultérieure de comparaison.
+Exemple : US01 = janvier 40 000 Euro ; DoD = tests, réconciliation, documentation, intégration et accès ; retour métier = demande ultérieure de comparaison.
 
 Les preuves sont simulées : US01 conforme J6, US02 J8, US03 J10. Elles ne certifient pas une solution BI réellement développée.
 
@@ -3103,7 +3103,7 @@ Une bonne sortie ne dispense pas de contrôle. Une mauvaise sortie est exploitab
 - [ ] Done uniques 34 ; restants 16 ; aucun double crédit US06 ou double comptage des tâches.
 - [ ] Heures, points, pourcentage et durées non confondus ; historique conservé.
 - [ ] Graphiques identifiés comme données pédagogiques, pas calculs natifs non vérifiés.
-- [ ] CA 90 000, coût 63 000, marge 27 000 TND ; taux de marque 30 %.
+- [ ] CA 90 000, coût 63 000, marge 27 000 Euro ; taux de marque 30 %.
 - [ ] Review et Retrospective distinctes ; action d’amélioration concrète.
 - [ ] Aucun élément non conforme présenté comme Increment terminé.
 - [ ] Résultat d’usage inspecté : moyenne 14 min ne prouve pas le seuil individuel pour tous.
@@ -3287,9 +3287,9 @@ Cette annexe prouve qu’aucun contenu du TP source n’a disparu.
 
 | Élément du source | Présent | Emplacement |
 |---|---|---|
-| CA cumul 90 000 TND | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
-| Coût d’achat cumul 63 000 TND | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
-| Marge cumul 27 000 TND | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
+| CA cumul 90 000 Euro | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
+| Coût d’achat cumul 63 000 Euro | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
+| Marge cumul 27 000 Euro | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
 | Taux de marque 30 % | oui | 0B — Cadre du TP › Programme et durées |
 | 47 points (backlog initial) | oui | Partie 2 — Préparer le produit › Étape 4 — Construire le Product Backlog |
 | 50 points (après US13) | oui | Partie 4 — S’adapter et inspecter › Étape 10 — Simuler un changement de priorité en cours de sprint |
