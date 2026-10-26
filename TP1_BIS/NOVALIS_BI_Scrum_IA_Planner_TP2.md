@@ -56,11 +56,10 @@ Ce TP vous apprend à construire, contrôler et adapter un planning Scrum dans M
 
 À la fin, vous disposez d’un plan de base partagé organisé en compartiments (Backlog et trois Sprints), de douze traces IA (IA-01 à IA-12) et d’un registre Excel. Le détail des livrables figure en [Annexe E](#annexe-e--checklist-finale-et-livrables).
 
-Support participant — Planner + Copilot — adaptation du TP source « Version enrichie IA du 22 octobre 2026 ».
+Support participant — Planner + Copilot 
 
 Public : consultants, Product Owners, chefs de projet, PMO, PMP et AMOA.
 
-Durée : voir le programme en [0B](#0b--cadre-du-tp). Le TP source durait 7 heures hors pauses (contrôle initial de 25 minutes + 13 étapes à 6 h 35). Cette version retient 12 étapes et est découpée en quatre demi-journées (environ 14 h 30, indicatif, hors pauses).
 
 Nom du plan : `NOVALIS_BI_Scrum_IA_Planner_TP2`.
 
@@ -90,7 +89,7 @@ Les liens conceptuels avec PSPO I restent signalés dans les étapes ; l’entra
 
 ### Prérequis
 
-Cochez chaque ligne avant de commencer. Elles adaptent les prérequis du TP source à Planner.
+Cochez chaque ligne avant de commencer.
 
 - [ ] Compte professionnel avec la licence Microsoft 365 Copilot (à vérifier sur votre poste). Le TP s’appuie sur un plan de base : voir l’encadré « Pourquoi un plan de base ? ».
 - [ ] Droit de créer un plan de base partagé et de l’ouvrir dans Planner (à vérifier sur votre poste) ; Excel recommandé pour les registres et graphiques, ou tableaux papier.
@@ -129,8 +128,6 @@ Le TP contient une Étape 0 de prise en main, puis 12 étapes. Chaque étape sui
 11. Pour réfléchir et lien PSPO I (optionnel).
 
 Chaque chemin de menu et chaque capacité de Planner ou de Copilot est marqué « à vérifier sur votre poste ». Les emplacements `[CAPTURE À INSÉRER : …]` indiquent où ajouter une copie d’écran.
-
-Les champs du TP source gardent leur alias, par exemple « Nombre3 (Reste estimé h) ». Ils n’existent pas tous dans Planner : la correspondance figure en [Annexe C](#annexe-c--données-de-référence). Les heures restantes, le burndown, la Référence IA et la Décision IA restent dans Excel.
 
 Qualité maximale en anglais : testez d’abord vos prompts en français ; si la qualité est insuffisante, adaptez-les (voir l’Étape 0).
 
@@ -194,13 +191,7 @@ Respectez cette règle à chaque prompt : n’envoyez à l’IA que des données
 
 > **Sigles de cette partie** : IA = intelligence artificielle ; PBI = Product Backlog Item (élément du Product Backlog) ; PSPO I = Professional Scrum Product Owner I ; TP = travaux pratiques.
 
-> Cette partie est une addition de la version Planner : elle n’existe pas dans le TP source. Elle prépare les débutants aux gestes de base et teste l’agent.
-
 ### Étape 0 — Prise en main de Planner et test de l’agent
-
-| Durée d’origine | Durée conseillée débutant (indicatif, hors pauses) | Demi-journée |
-|---|---|---|
-| Absente du TP source | 90 min | 1 |
 
 **Ordre de travail** : alternez Planner et l’agent (rubriques 3 et 4).
 
@@ -310,7 +301,7 @@ Dans le plan « [nom d’un plan Premium] », renomme la tâche « [nom de la t�
 
 ##### Test — Copilot (chat général)
 
-Prompt de test (ajout de la version Planner, absent du TP source) :
+Prompt de test (ajout de la version Planner :
 
 ```text
 Explique en trois phrases ce qu’est un compartiment dans un plan Planner.
@@ -395,7 +386,7 @@ Faites vos tests dans le plan d’essai uniquement. Évitez d’approuver une ca
 |---|---|---|
 | 25 min | 40 min | 1 |
 
-Cochez chaque contrôle, puis complétez le tableau. Ce bloc adapte le contrôle du TP source à Planner ; l’étape 1 reprendra seulement le résultat.
+Cochez chaque contrôle, puis complétez le tableau. 
 
 - [ ] 1. Ouvrir Planner et relever le type de compte (professionnel) et la licence Microsoft 365 Copilot (à vérifier sur votre poste).
 - [ ] 2. Relever la langue de l’interface de Planner et de Copilot (à vérifier sur votre poste).
@@ -457,46 +448,6 @@ Les trois Developers constituent une équipe pluridisciplinaire fictive. Les deu
 Les données chiffrées de référence (CA, coût, marge, répartitions) figurent en [Annexe C](#annexe-c--données-de-référence). Elles servent à simuler les vérifications ; ne les saisissez pas comme tâches dans Planner.
 
 Les données chiffrées de référence (CA, coût, marge, répartitions) figurent en [Annexe C](#annexe-c--données-de-référence). Elles servent à simuler les vérifications ; ne les saisissez pas comme tâches dans Planner.
-
-### Programme et durées
-
-La colonne « Durée d’origine » reprend le TP source pour les étapes retenues. La colonne « Durée conseillée débutant » est indicative et hors pauses. Les lignes marquées « ajout » n’existent pas dans le TP source.
-
-| Bloc | Durée d’origine | Durée conseillée débutant (indicatif, hors pauses) | Demi-journée |
-|---|---:|---:|---:|
-| Avant de commencer (0A et 0B) — ajout | – | 20 min | 1 |
-| Contrôle du poste | 25 min | 40 min | 1 |
-| Étape 0. Prise en main de Planner et test de l’agent — ajout | – | 90 min | 1 |
-| 1. Créer le plan | 25 min | 40 min | 1 |
-| Reprise demi-journée 2 — ajout | – | 5 min | 2 |
-| 2. Définir le produit | 20 min | 30 min | 2 |
-| 3. Construire le backlog | 45 min | 80 min | 2 |
-| 4. Organiser le backlog dans Planner | 35 min | 100 min | 2 |
-| 5. Configurer les sprints | 30 min | 60 min | 2 |
-| Reprise demi-journée 3 — ajout | – | 5 min | 3 |
-| 6. Sprint Planning | 40 min | 70 min | 3 |
-| 7. Travail quotidien | 35 min | 65 min | 3 |
-| 8. Visualisation | 30 min | 45 min | 3 |
-| Reprise demi-journée 4 — ajout | – | 5 min | 4 |
-| 9. Changement de priorité | 25 min | 45 min | 4 |
-| 10. Review et Retrospective | 30 min | 40 min | 4 |
-| 11. Increment et DoD | 25 min | 35 min | 4 |
-| 12. Inspection sur trois sprints | 35 min | 65 min | 4 |
-| Checklist finale (Annexe E) — ajout | – | 30 min | 4 |
-| **Total** | **400 min (25 + 375)** | **870 min (14 h 30)** | |
-
-Les étapes retenues totalisent 400 minutes (25 + 375), soit 6 h 40, contre 7 h pour le TP source complet, car l’ancienne étape « Comprendre le passage du prédictif à Scrum » (20 minutes) a été retirée volontairement de cette version Planner.
-
-### Découpage en quatre demi-journées
-
-| Demi-journée | Contenu | Durée conseillée (indicatif, hors pauses) | Point d’arrêt |
-|---|---|---:|---|
-| 1 | Avant de commencer, Contrôle du poste, Étape 0, Étape 1 | 190 min | Plan créé et test de l’agent relevé |
-| 2 | Reprise, Étapes 2 à 5 | 275 min | Compartiments créés (après l’étape 5) |
-| 3 | Reprise, Étapes 6 à 8 | 185 min | Sprint 1 suivi |
-| 4 | Reprise, Étapes 9 à 12, Checklist finale | 220 min | Bilan fin S3 |
-
-Aucune activité n’est retirée : le découpage répartit seulement le même travail. Chaque point d’arrêt comporte une auto-évaluation à cocher.
 
 ### Prompt de cadrage
 
@@ -987,16 +938,6 @@ Reportez dans Planner uniquement la version validée. La sortie brute et les éc
 
 Créez US01 comme indiqué, puis préparez les douze tâches à l’étape 4. Dans la description et la liste de contrôle, saisissez les critères corrigés. Dans Excel : Texte4 (Référence IA) = IA-03 et Texte5 (Décision IA) = Retenu ou Corrigé puis retenu. Les critères non validés restent des questions, pas des exigences approuvées.
 
-#### 7. Données à saisir
-
-Où va chaque champ du TP source (alias) :
-
-| Champ du TP source (alias) | Dans Planner | Dans Excel |
-|---|---|---|
-| Texte4 (Référence IA) | Aucun champ équivalent | Colonne Référence IA (ex. « IA-03 ; IA-06 ») |
-| Texte5 (Décision IA) | Aucun champ équivalent | Colonne Décision IA (ex. « Corrigé puis retenu ») |
-
-Backlog initial : 12 PBI, 47 points. Les horizons S2 sont des hypothèses, pas des engagements.
 
 ##### US01 — Consulter le CA mensuel
 
@@ -1007,7 +948,7 @@ Backlog initial : 12 PBI, 47 points. Les horizons S2 sont des hypothèses, pas d
 - Contraintes : Source contrôlée ; aucun PBI préalable requis.
 - Horizon initial : Sprint 1.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] Janvier 40 000 Euro ; février 50 000 ; cumul 90 000.
 - [ ] Le filtre janvier conserve seulement janvier.
@@ -1022,7 +963,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Socle US01 réutilisable ; réalisation conjointe possible.
 - Horizon initial : Sprint 1.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] Nord 54 000 Euro, Sud 36 000 sur les deux mois
 - [ ] Nord + janvier = 24 000
@@ -1037,7 +978,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Source de ventes commune ; codes produits à clarifier.
 - Horizon initial : Sprint 1.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] P01 45 000, P02 28 000, P03 17 000 Euro, tri décroissant.
 - [ ] Janvier : 20 000, 12 000, 8 000.
@@ -1052,7 +993,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Coûts et formules validés ; taux calculé sur les agrégats.
 - Horizon initial : Sprint 2, hypothèse.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] Cumul : CA 90 000, coût 63 000, marge 27 000 Euro, taux de marque 30 %.
 - [ ] Janvier : marge 10 800 et 27 %.
@@ -1067,7 +1008,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : US02 utile ; comparaison descriptive, sans causalité supposée.
 - Horizon initial : Sprint 2, hypothèse.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] N1 32 000, N2 22 000, S1 20 000, S2 16 000 Euro
 - [ ] filtre Nord : N1/N2 seulement, total 54 000.
@@ -1081,7 +1022,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : US01 ; convention de comparaison explicite.
 - Horizon initial : Sprint 2, hypothèse.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner:
 
 - [ ] 50 000 contre 40 000 Euro : +10 000 et +25 %.
 - [ ] Les périodes sont affichées.
@@ -1096,7 +1037,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Référentiel produits fiable.
 - Horizon initial : Aucun sprint.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner:
 
 - [ ] Équipement P01+P02 : 73 000 Euro ; Accessoires P03 : 17 000.
 - [ ] Janvier : 32 000 et 8 000.
@@ -1111,7 +1052,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Codes pseudonymisés, accès autorisé.
 - Horizon initial : Aucun sprint.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] C01 45 000, C02 28 000, C03 17 000 Euro
 - [ ] seuls les codes autorisés apparaissent
@@ -1126,7 +1067,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Une vue filtrée exploitable existe.
 - Horizon initial : Aucun sprint.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] Export Nord : N1/N2 uniquement, cumul 54 000 Euro
 - [ ] période et filtres indiqués
@@ -1142,7 +1083,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Journal fictif ; les contrôles qualité minimaux restent requis dès S1.
 - Horizon initial : Aucun sprint.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] Nominal : « Chargement réussi : 01/03/2026 08:00 ».
 - [ ] Échec simulé : « Dernier chargement échoué ; données au 28/02/2026 ».
@@ -1157,7 +1098,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : Dictionnaire utilisateur enrichi ; documentation minimale de DoD dès S1.
 - Horizon initial : Aucun sprint.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner:
 
 - [ ] Dictionnaire : CA net HT en Euro, coût, marge = CA − coût, taux de marque = marge / CA
 - [ ] périodes explicites
@@ -1172,7 +1113,7 @@ Liste de contrôle Planner (une case par critère, découpage du critère du TP 
 - Contraintes : US04/US06 terminées ; dépendances à inspecter.
 - Horizon initial : Aucun sprint.
 
-Liste de contrôle Planner (une case par critère, découpage du critère du TP source) :
+Liste de contrôle Planner :
 
 - [ ] CA, marge et variation affichés sans ressaisie
 - [ ] cumul 90 000 Euro, marge 27 000, variation février/janvier +25 %
@@ -1254,7 +1195,7 @@ Lisez d’abord la rubrique 4 (IA), puis les contrôles (rubrique 5). Revenez en
 8. N’ajoutez aucune date d’échéance et aucun Sprint. (à vérifier sur votre poste)
 9. Si le tableau permet de choisir les informations affichées sur les cartes, affichez les étiquettes (aucun équivalent garanti de « Personnaliser les cartes »). (à vérifier sur votre poste)
 10. Créez dans Excel le registre de suivi avec les colonnes ID PBI, Points, Ordre backlog, Reste estimé h, Obstacle, Résultat DoD, Référence IA, Décision IA. (à vérifier sur votre poste)
-11. Archivez le backlog : capture de la vue Grille et export Excel du plan si disponible, nommé « NOVALIS_BI_Scrum_00_Backlog » (nom du TP source, adapté à Planner). (à vérifier sur votre poste)
+11. Archivez le backlog : capture de la vue Grille et export Excel du plan si disponible, nommé « NOVALIS_BI_Scrum_00_Backlog ». (à vérifier sur votre poste)
 
 > [CAPTURE À INSÉRER : vue Grille du compartiment Backlog avec les 12 tâches ordonnées et les 4 étiquettes créées]
 
@@ -1346,9 +1287,9 @@ Créez les quatre étiquettes, puis saisissez titre, description et liste de con
 
 #### 7. Données à saisir
 
-Où va chaque champ du TP source (alias) :
+Où va chaque champ (alias) :
 
-| Champ du TP source (alias) | Dans Planner | Dans Excel |
+| Champ  (alias) | Dans Planner | Dans Excel |
 |---|---|---|
 | Nombre1 (Points) | Suffixe du titre « [N pts] » | Colonne Points (total initial 47) |
 | Nombre2 (Ordre backlog) | Ordre de la tâche dans le compartiment (1 = premier) | Colonne Ordre backlog |
@@ -1357,7 +1298,7 @@ Où va chaque champ du TP source (alias) :
 | Texte2 (Obstacle) | Étiquette « Bloqué » + ligne datée dans la description | Colonne Obstacle (avec date) |
 | Texte3 (Résultat DoD) | Étiquettes « Conforme » / « Non conforme » (« À vérifier » = étiquette, jamais Done) | Colonne Résultat DoD |
 
-| Champ du TP source | Usage (source) | Dans Planner |
+| Champ | Usage (source) | Dans Planner |
 |---|---|---|
 | Nom de la tâche | USxx et titre | Titre « USxx — nom [N pts] » |
 | Texte1 (ID PBI) | ID PBI, stable même si l’ID de ligne change | Préfixe du titre |
@@ -1704,9 +1645,9 @@ Après la décision de l’équipe, faites déplacer US01, US02 et US03 vers « 
 
 #### 7. Données à saisir
 
-Où va chaque champ du TP source (alias) :
+Où va chaque champ (alias) :
 
-| Champ du TP source (alias) | Dans Planner | Dans Excel |
+| Champ(alias) | Dans Planner | Dans Excel |
 |---|---|---|
 | Nombre3 (Reste estimé h) | Aucun champ équivalent (ne pas confondre avec la progression) | Colonne Reste estimé h, saisie manuellement, vide avant Planning |
 | Texte4 (Référence IA) | Aucun champ équivalent | Colonne Référence IA (ex. « IA-03 ; IA-06 ») |
@@ -1874,9 +1815,9 @@ Appliquez seulement les mises à jour du scénario : progression, étiquettes, l
 
 #### 7. Données à saisir
 
-Où va chaque champ du TP source (alias) :
+Où va chaque champ (alias) :
 
-| Champ du TP source (alias) | Dans Planner | Dans Excel |
+| Champ  (alias) | Dans Planner | Dans Excel |
 |---|---|---|
 | Nombre3 (Reste estimé h) | Aucun champ équivalent (ne pas confondre avec la progression) | Colonne Reste estimé h, saisie manuellement, vide avant Planning |
 
@@ -2497,9 +2438,9 @@ Posez l’étiquette validée (« Conforme » / « Non conforme ») et saisissez
 
 #### 7. Données à saisir
 
-Où va chaque champ du TP source (alias) :
+Où va chaque champ  (alias) :
 
-| Champ du TP source (alias) | Dans Planner | Dans Excel |
+| Champ (alias) | Dans Planner | Dans Excel |
 |---|---|---|
 | Texte3 (Résultat DoD) | Étiquettes « Conforme » / « Non conforme » (« À vérifier » = étiquette, jamais Done) | Colonne Résultat DoD |
 
@@ -2577,14 +2518,14 @@ US11 est un dictionnaire enrichi, pas une dispense de documentation minimale ava
 
 > ⚠️ Chaque action est à vérifier sur votre poste. Les noms de menus peuvent varier.
 
-1. Archivez la fin S1 avant de poursuivre : « NOVALIS_BI_Scrum_01b_Fin_S1 » (nom proposé, absent du TP source). (à vérifier sur votre poste)
+1. Archivez la fin S1 avant de poursuivre : « NOVALIS_BI_Scrum_01b_Fin_S1 » . (à vérifier sur votre poste)
 2. Planning S2 : après la décision de l’équipe, demandez à l’agent de déplacer US04, US05 et US06 vers « Sprint 2 (16/11–29/11) » (premier prompt ; repli : glisser-déposer manuel). Prévisions 24 / 12 / 24 h = 60 h dans Excel. US13 reste dans le Backlog : cibles non finalisées. (à vérifier sur votre poste)
 3. J2 S2 : notez l’absence et le plafond révisé de 72 à 48 h dans le registre Sprints (Excel). Adaptez le plan sans allonger le Sprint ni abaisser la DoD. (à vérifier sur votre poste)
 4. Fin S2 : US04 et US05 en Terminé avec l’étiquette « Conforme » (posée à la main). US06 porte les étiquettes « À vérifier » puis « Non conforme », reste 10 h, et n’est pas Terminé. Défaut : référence zéro non gérée, à noter dans la description. Le but complet n’est pas atteint. (à vérifier sur votre poste)
 5. Archivez la fin S2 (« NOVALIS_BI_Scrum_02_Fin_S2 ») et l’historique avant de déplacer US06. (à vérifier sur votre poste)
 6. Demandez à l’agent de remettre US06 dans « Backlog (aucun sprint) » (deuxième prompt) pour réexamen : même tâche, même estimation de 5 points, ne dupliquez pas le PBI. (à vérifier sur votre poste)
 7. Planning S3 : cibles confirmées ; après la décision de l’équipe, demandez à l’agent de déplacer US06, US13, US10 et US11 vers « Sprint 3 (30/11–13/12) » (troisième prompt). Reste 10 + 12 + 12 + 8 = 42 h pour un plafond de 48 h (Excel) ; total 13 points. (à vérifier sur votre poste)
-8. Fin S3 : les quatre PBI sont Terminé et « Conforme » ; les autres restent dans le Backlog. Archivez une copie finale « NOVALIS_BI_Scrum_03_Fin_S3 » (nom proposé, absent du TP source). (à vérifier sur votre poste)
+8. Fin S3 : les quatre PBI sont Terminé et « Conforme » ; les autres restent dans le Backlog. Archivez une copie finale « NOVALIS_BI_Scrum_03_Fin_S3 » . (à vérifier sur votre poste)
 
 > [CAPTURE À INSÉRER : vue Tableau de fin S2 (US06 « Non conforme ») puis de fin S3 (quatre PBI Conforme)]
 
@@ -2745,7 +2686,7 @@ Cette annexe contient un index des 12 prompts d’étape, puis le prompt de cadr
 | IA-11 | 11. Increment et DoD | Rubrique 4 de [Étape 11 — Comprendre l’Increment et la Definition of Done](#étape-11--comprendre-lincrement-et-la-definition-of-done) | Mot pour mot |
 | IA-12 | 12. Inspection sur trois sprints | Rubrique 4 de [Étape 12 — Gérer plusieurs sprints et inspecter les résultats](#étape-12--gérer-plusieurs-sprints-et-inspecter-les-résultats) | Mot pour mot |
 
-> ⚠️ Les prompts adaptés à Planner sont : le prompt de cadrage, la relance après saisie, IA-01, IA-04, IA-05, IA-07 et IA-08. Tous les autres, IA-06 et IA-12 inclus, sont repris mot pour mot du TP source. La relance après saisie citait l’ancien outil et son format de fichier ; elle est adaptée à Planner. Le prompt IA-01 perd aussi une mention d’un planning prédictif devenue sans objet.
+> ⚠️ Les prompts adaptés à Planner sont : le prompt de cadrage, la relance après saisie, IA-01, IA-04, IA-05, IA-07 et IA-08. Tous les autres, IA-06 et IA-12 inclus, . La relance après saisie citait l’ancien outil et son format de fichier ; elle est adaptée à Planner. Le prompt IA-01 perd aussi une mention d’un planning prédictif devenue sans objet.
 
 ### Prompts de l’agent
 
@@ -2795,7 +2736,7 @@ Attends maintenant les données de la première étape.
 
 ### Relance de contrôle
 
-Utilisez cette relance après une réponse de l’IA, avant toute saisie. Texte identique au TP source.
+Utilisez cette relance après une réponse de l’IA, avant toute saisie. 
 
 ```text
 RELANCE DE CONTRÔLE
@@ -2832,36 +2773,8 @@ Dans le registre Excel, ajouter deux colonnes : Texte4 (Référence IA) et Texte
 
 Pour un PBI, Texte4 (Référence IA) peut contenir « IA-03 ; IA-06 », Texte5 (Décision IA) « Corrigé puis retenu ». Les échanges complets restent dans le registre ; ils ne sont pas tous collés sur les cartes Planner. Ajouter dans la description de la tâche un bref résumé de la décision et des contrôles. Ces champs ne créent ni synchronisation avec l’IA ni automatisation du planning.
 
-### Les 14 colonnes du registre
 
-La colonne « TP source » reprend l’énumération du support d’origine (la colonne 12 devient « Éléments reportés dans Planner »). La colonne « Fichier Excel joint » reprend l’en-tête réel de `Registre_IA_NOVALIS_Planning_Scrum.xlsx`. Aucun choix n’a été fait à votre place : les deux intitulés sont affichés.
-
-| N° | TP source | Fichier Excel joint | Écart |
-|---:|---|---|---|
-| 1 | Référence | Référence | Identique |
-| 2 | Étape | Étape | Identique |
-| 3 | Date | Date séance | Intitulé différent |
-| 4 | Outil / modèle si connu | Outil / modèle si connu | Identique |
-| 5 | Entrées transmises | Entrées transmises | Identique |
-| 6 | Prompt utilisé | Prompt / version | Intitulé différent |
-| 7 | Lien ou emplacement de la sortie brute | Sortie brute : emplacement | Intitulé différent |
-| 8 | Proposition | Proposition examinée | Intitulé différent |
-| 9 | Contrôle effectué | Contrôle humain effectué | Intitulé différent |
-| 10 | Décision | Décision | Identique |
-| 11 | Justification | Justification | Identique |
-| 12 | Éléments reportés dans Planner | Éléments reportés dans … (intitulé Excel d’origine, qui nomme l’ancien outil) | Intitulé différent |
-| 13 | Résultat observé | Résultat observé après saisie | Intitulé différent |
-| 14 | Question ouverte | Question ouverte | Identique |
-
-Écarts relevés entre le TP source et le fichier Excel :
-
-- 7 intitulés d’Excel diffèrent légèrement de ceux du TP source (voir le tableau). Le sens est le même ; décidez quel libellé vous conservez.
-- Excel préremplit 13 lignes de références (une de plus que cette version) : le nom de l’étape, « IA-xx / v1 » dans la colonne Prompt / version et « À clarifier » dans la colonne Décision. Le TP source ne précise pas ces valeurs.
-- Excel contient quatre feuilles absentes du TP source : Mode_emploi, Prompts (13 prompts), la feuille de transfert et Controles_reference.
-- Les prompts de la feuille Prompts sont ceux du TP source. Dans cette version Planner, les prompts IA-01, IA-04, IA-05, IA-07 et IA-08 (nouvelle numérotation) sont adaptés : mettez-les à jour dans Excel avant usage.
-- La feuille Mode_emploi liste les décisions possibles : Retenu / Corrigé puis retenu / Rejeté / À clarifier.
-
-### Feuille de transfert du fichier Excel (absente du TP source)
+### Feuille de transfert du fichier Excel
 
 Colonnes : Référence IA ; ID PBI / registre ; Proposition retenue ; Champ ciblé / alias ; Valeur avant ; Valeur après ; Contrôle après saisie ; Commentaire. Usage indiqué par Excel : faire correspondre chaque proposition retenue à une ligne PBI ou à un registre externe ; aucune carte artificielle pour chaque échange IA.
 
@@ -2892,8 +2805,7 @@ Une archive du plan (capture ou export) n’est ni une clôture Scrum avec valid
 
 > **Sigles de cette partie** : BI = Business Intelligence (informatique décisionnelle) ; DoD = Definition of Done ; US = User Story ; Euro = Euro ; HT = hors taxes ; CA = chiffre d’affaires.
 
-Cette annexe regroupe les données de référence du TP. Les valeurs sont identiques à celles du TP source.
-
+Cette annexe regroupe les données de référence du TP.
 ### C.1 Données BI de référence
 
 | Indicateur | Janvier | Février | Cumul |
@@ -2923,7 +2835,7 @@ Pourquoi ? Une marge doit avoir une formule, un périmètre et une unité. Le ta
 
 Tout est à vérifier sur votre poste.
 
-| Élément du TP source (outil d’origine) | Planner (plan de base partagé) |
+| Élément| Planner (plan de base partagé) |
 |---|---|
 | Sprint 1 / 2 / 3 | Compartiments « Sprint 1 (02/11–15/11) », « Sprint 2 (16/11–29/11) », « Sprint 3 (30/11–13/12) » |
 | Aucun sprint | Compartiment « Backlog (aucun sprint) » |
@@ -2941,7 +2853,6 @@ Tout est à vérifier sur votre poste.
 | Nombre3 (Reste estimé h), Texte4 (Référence IA), Texte5 (Décision IA), burndown, registres | Excel |
 | Product Goal, Sprint Goals | Objectifs Planner si la fonction existe (à vérifier) ; repli : description du plan et registre Excel |
 | Gantt, mode manuel, Durée | Aucun équivalent requis ; vues Grille / Tableau / Planification / Graphiques à vérifier |
-| Archives du TP source | Captures ou exports du plan (à vérifier) |
 | Rapports natifs | Vue Graphiques (à vérifier) |
 
 ### C.3 Alias des huit champs
@@ -3014,7 +2925,7 @@ Exemple : US01 = janvier 40 000 Euro ; DoD = tests, réconciliation, documentati
 
 Les preuves sont simulées : US01 conforme J6, US02 J8, US03 J10. Elles ne certifient pas une solution BI réellement développée.
 
-### C.7 Contrôles de référence (fichier Excel joint, absents du TP source)
+### C.7 Contrôles de référence (fichier Excel joint)
 
 | Point de contrôle | Valeur de référence |
 |---|---|
@@ -3031,9 +2942,9 @@ Les preuves sont simulées : US01 conforme J6, US02 J8, US03 J10. Elles ne certi
 | Bilan fin S3 | 50 = 34 Done uniques + 16 restants |
 | Mesure usage S3 | 12/14/15/13/16 min ; moyenne 14 ; seuil strict non atteint pour tous |
 
-### C.8 Repères d’interface du TP source (Project, pour mémoire)
+### C.8 Repères d’interface (Project, pour mémoire)
 
-Ce tableau est conservé du TP source. Il concerne Project et ne s’applique pas à Planner.
+Ce tableau  concerne Project et ne s’applique pas à Planner.
 
 | Fonction | Chemin documenté / équivalent anglais |
 |---|---|
@@ -3309,7 +3220,7 @@ L’assistant IA ne dispose d’aucun accès implicite à votre plan Planner (ho
 
 ### Sources officielles
 
-Sources S1 à S9 : reprises du TP source (consultées le 22 octobre 2026 par son auteur) ; non rouvertes lors de cette adaptation. Elles concernent surtout l’outil d’origine et ne servent plus que de références.
+Sources S1 à S9 : 
 
 - [S1] Microsoft Support — [Tableaux de tâches et sprints dans Project desktop](https://support.microsoft.com/fr-fr/project/use-task-boards-in-microsoft-project-online-desktop-client) ; [version anglaise](https://support.microsoft.com/en-us/project/use-task-boards-in-microsoft-project-online-desktop-client). Modèle Projet Sprints, gestion des sprints, tableaux, états, cartes et rapports.
 - [S2] Microsoft Learn — [Historique des mises à jour Microsoft 365 Apps](https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date). Numéros de version, dont 2609, et versions par abonnement de Project.
@@ -3353,8 +3264,6 @@ Cette annexe prouve qu’aucun contenu conservé du TP source n’a disparu et c
 | Programme | 0B › Programme et durées (quatre demi-journées) |
 | Scénario métier et acteurs | 0B |
 | Données BI de référence | Annexe C.1 |
-| Étapes 2 à 13 du TP source (IA-02 à IA-13) | Étapes 1 à 12 (IA-01 à IA-12), Parties 2 à 4 |
-| Étape 1 du TP source (IA-01) | Supprimée volontairement (voir I.4) |
 | Fiches US01 à US12, principes d’ordonnancement | Étape 3, rubrique 7 ; Annexe C.4 |
 | US13 | Étape 9, rubrique 7 ; Annexe C.4 |
 | Suivi J0–J10 | Étape 7, rubrique 7 ; Annexe C.5 (à tenir dans Excel) |
@@ -3364,7 +3273,6 @@ Cette annexe prouve qu’aucun contenu conservé du TP source n’a disparu et c
 | Checklist finale | Annexe E |
 | Limites du support | Annexe H |
 | Glossaire | Annexe F |
-| Sources S1 à S9 | Annexe H (reprises du TP source) ; S11 à S15 ajoutées |
 | Liens PSPO I (12 étapes) | Rubrique 11 de chaque étape ; Annexe G |
 | Défauts à rejeter, erreurs fréquentes, questions | Rubriques 9 et 11 de chaque étape |
 | « Trace IA supplémentaire… » | Rubrique 8 de chaque étape |
@@ -3432,28 +3340,10 @@ Cette annexe prouve qu’aucun contenu conservé du TP source n’a disparu et c
 | Fiche US11 | oui | Partie 2 — Préparer le produit › Étape 3 — Construire le Product Backlog |
 | Fiche US12 | oui | Partie 2 — Préparer le produit › Étape 3 — Construire le Product Backlog |
 
-### I.3 Modifications et décisions
-
-- **Devise :** devise Euro au lieu de TND du TP source (choix de l’auteur de la version Planner). Montants inchangés : 90 000 Euro, 63 000 Euro, 27 000 Euro.
-- **Étape supprimée :** l’ancienne étape 1 « Comprendre le passage du prédictif à Scrum » (IA-01), avec son tableau TP1/TP2, sa proposition défectueuse, ses questions, son lien PSPO I et son dépannage, est retirée volontairement. Elle existe dans le TP Project d’origine. Les étapes et les traces IA sont renumérotées (I.4). L’objectif « distinguer approche prédictive et empirique » est retiré de la phrase d’ouverture de 0A.
-- **Décision structurante :** le Planner Agent est l’entrée d’IA pour toutes les actions dans Planner, et Copilot (chat général) sert à analyser et rédiger. L’entrée « Copilot dans le plan » est supprimée.
-- **Plan Premium écarté :** l’agent ne prend pas en charge les plans Premium et ne voit que les plans de base partagés récemment ouverts [S14]. Planner Premium n’est plus un prérequis ; la licence requise est Microsoft 365 Copilot. Les sprints natifs, sous-tâches et objectifs sont des fonctions Premium [S11] : remplacés par des compartiments, des éléments de liste de contrôle et la description du plan.
-- **Limites de l’agent :** il ne modifie pas les étiquettes, listes de contrôle, affectations, pièces jointes ni notes de tâches existantes, et ne supprime ni n’annule : ces actions restent manuelles. Les pages S14 et S15 divergent sur la liste des champs modifiables : à vérifier à l’étape 0.
-- **Rubrique agent :** chaque étape contient, dans la rubrique 4, le bloc « Ce que l’agent fait / ce que je fais à la main » et des prompts courts, un par action, « un ordre à la fois ». Étapes 3 et 4 : US01 seule en test, puis US02 à US12 par lots de 3 à 4 tâches. Étapes 6 et 12 : l’agent exécute les déplacements après décision humaine (à tester, repli manuel). L’agent ne reçoit jamais le Sprint Goal, la sélection du Sprint ni le statut Done.
-- **Repli unique :** si l’agent échoue, saisie manuelle. Les replis « Copilot dans le plan » des anciennes étapes 8 et 13 sont supprimés.
-- **Sous-tâches :** T-US01-n deviennent des éléments de liste de contrôle, saisis à la main (sous-tâches non disponibles dans un plan de base, à vérifier). Mises à jour : table de correspondance (C.2) et alias (C.3).
-- **Objectifs :** fonction à vérifier ; repli = Product Goal et Sprint Goals dans la description du plan et le registre Excel.
-- **Durées :** valeurs de la consigne C appliquées (étape 0 = 90 min, total 870 min, 14 h 30) ; la consigne +10 min / −10 min est ignorée. Total d’origine des étapes retenues : 400 min (25 + 375), soit 6 h 40, contre 7 h.
-- **Bloc « Après création » :** liste complète conservée une seule fois en 0A ; chaque étape garde seulement « Attendu à cette étape » si du contenu est créé. L’attendu de l’étape 3 est 1 tâche (US01) ; les 12 tâches sont attendues à l’étape 4.
-- **Prompts adaptés à Planner (nouvelle numérotation) :** prompt de cadrage, relance après saisie, IA-01 (mention d’un planning prédictif retirée), IA-04, IA-05, IA-07, IA-08. Les autres sont mot pour mot, dont IA-06 et IA-12.
-- **Étape 0 :** le plan d’essai est un plan de base partagé ouvert récemment ; test de l’agent (créer un plan, une tâche, modifier la progression, ajouter un compartiment, puis refus attendu pour étiquette et liste de contrôle) ; test facultatif sur un plan Premium (refus attendu).
-- **Sources :** S11 à S15 ouvertes le 26 octobre 2026 ; S1 à S9 reprises du TP source, non rouvertes. Le contenu de toutes reste à vérifier sur votre poste.
-- **Excel joint :** supprimer la ligne IA-01 et décaler les références (Annexe B).
-- **Autres :** archives `_01b_Fin_S1` et `_03_Fin_S3` proposées (absentes du TP source) ; précision ajoutée sur les dates de Sprint (15/11, 29/11, 13/12 tombent un dimanche ; dernier jour ouvré du Sprint 1 : 13/11) ; faute « Verifier » corrigée.
 
 ### I.4 Table ancien → nouveau numéro
 
-| Ancien numéro (TP source) | Nouveau numéro (version Planner) | Trace IA |
+| Ancien numéro | Nouveau numéro (version Planner) | Trace IA |
 |---|---|---|
 | Étape 0 (ajout Planner) | Étape 0 | – |
 | Étape 1 — Comprendre le passage du prédictif à Scrum | **Supprimée** | IA-01 retirée |
