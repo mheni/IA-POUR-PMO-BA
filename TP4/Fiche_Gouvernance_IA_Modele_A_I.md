@@ -1,4 +1,4 @@
-# FICHE DE GOUVERNANCE IA — PROJET CLIENT ATOS
+# FICHE DE GOUVERNANCE IA — PROJET CLIENT CGI
 
 Modèle participant à compléter — Cas ORION IA fictif — Module Gouvernance IA Microsoft
 
