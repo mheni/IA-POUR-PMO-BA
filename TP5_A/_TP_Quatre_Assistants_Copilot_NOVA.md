@@ -51,7 +51,7 @@ Les chapitres métier restent présentés dans l'ordre PO, PMO, PMP, AMOA demand
 
 Utiliser seulement les données fictives de ce support. Ne pas copier de dossiers citoyens, de secrets, de contrats réels ou de données client. Ne pas activer de connecteur métier ni d'envoi automatique pour réussir le TP. Ne pas choisir un site web public ou une authentification anonyme pour diffuser les agents. Aucune donnée sensible réelle n'est nécessaire.
 
-La CNIL souligne que les agents capables d'accéder à plusieurs sources et d'agir amplifient les risques de circulation et de perte de maîtrise des données personnelles. D'où un TP volontairement limité à la consultation d'un corpus synthétique et à la rédaction de propositions [web:7].
+La CNIL souligne que les agents capables d'accéder à plusieurs sources et d'agir amplifient les risques de circulation et de perte de maîtrise des données personnelles. D'où un TP volontairement limité à la consultation d'un corpus synthétique et à la rédaction de propositions.
 
 ## 3. Comprendre avant de manipuler
 
@@ -72,7 +72,7 @@ La CNIL souligne que les agents capables d'accéder à plusieurs sources et d'ag
 | Tenant | Espace Microsoft 365 de votre organisation | Comptes et politiques de formation | N'est pas votre seul compte personnel |
 | Environnement | Espace de travail et de gestion Copilot Studio | Bac à sable autorisé | Ses droits et crédits peuvent différer d'un autre espace |
 
-Une compétence métier comme « rédiger une User Story » est principalement guidée par les instructions et le contexte. Envoyer un email demande en plus un outil d'action, une authentification et des droits appropriés. Agent Builder ne permet pas de créer directement les actions d'intégration à des services externes ; Microsoft oriente vers Copilot Studio pour ce besoin [web:15].
+Une compétence métier comme « rédiger une User Story » est principalement guidée par les instructions et le contexte. Envoyer un email demande en plus un outil d'action, une authentification et des droits appropriés. Agent Builder ne permet pas de créer directement les actions d'intégration à des services externes ; Microsoft oriente vers Copilot Studio pour ce besoin .
 
 Le vocabulaire « prompt système » employé dans ce TP désigne le bloc à coller dans le champ Instructions de l'agent. Ce champ n'est pas un accès aux instructions système internes de Microsoft et ne peut pas neutraliser les politiques de sécurité de la plateforme.
 
@@ -85,7 +85,7 @@ Le vocabulaire « prompt système » employé dans ce TP désigne le bloc à col
    - Erreur fréquente : utiliser un compte grand public. Solution : se déconnecter et sélectionner le compte professionnel autorisé.
 2. Rechercher dans le volet gauche « New agent » (Nouvel agent ; la traduction peut varier). Si le volet est replié, le développer.
    - Attendu : ouverture d'Agent Builder et présence de « Skip to configure » ou de l'onglet « Configure ».
-   - Erreur : entrée absente. Solution : ne pas inventer de menu ; demander à l'administrateur de confirmer activation, licence, politique et disponibilité du tenant. Tester sur navigateur de bureau, pas sur mobile [web:15][web:27].
+   - Erreur : entrée absente. Solution : ne pas inventer de menu ; demander à l'administrateur de confirmer activation, licence, politique et disponibilité du tenant. Tester sur navigateur de bureau, pas sur mobile.
 3. Dans Configure, relever les champs réellement présents : Name, Description, Instructions, Knowledge, Suggested prompts. Les noms anglais ci-dessous sont les repères de la documentation Microsoft ; la traduction française du tenant peut varier.
    - Attendu : fiche environnement renseignée.
    - Erreur : supposer qu'un bouton vu en capture existe partout. Solution : noter ce qui est visible et choisir la variante correspondante.
@@ -94,7 +94,7 @@ Le vocabulaire « prompt système » employé dans ce TP désigne le bloc à col
    - Erreur : interpréter une page accessible comme preuve de capacité d'exécution. Solution : effectuer une conversation de test réelle ; un blocage de crédits n'est pas contourné par un écran d'évaluation.
 5. Si Copilot Studio est envisagé, ouvrir son portail depuis l'accès approuvé de l'organisation, vérifier l'environnement sélectionné et les droits de création. Ne pas changer d'environnement au hasard.
    - Attendu : environnement de formation identifié.
-   - Erreur : essai interprété comme droit de publication. Microsoft précise que l'essai permet la création et les tests mais pas la publication [web:13].
+   - Erreur : essai interprété comme droit de publication. Microsoft précise que l'essai permet la création et les tests mais pas la publication.
 
 ### 4.2 Fiche environnement à remplir
 
@@ -121,13 +121,13 @@ Le vocabulaire « prompt système » employé dans ce TP désigne le bloc à col
 | C — Studio standard | Agent Builder absent ou contrôle documentaire plus strict nécessaire, Studio autorisé | Quatre agents dans l'expérience standard de Studio | Licence, environnement, capacité et canal à confirmer |
 | D — préparation seulement | Aucun outil de création/exécution autorisé | Rédiger configurations et tests sur papier/fichier | Ne pas annoncer quatre agents créés ou validés ; prévoir une autre séance |
 
-L'accès à Agent Builder et à ses capacités dépend des licences et des politiques du tenant. Il n'existe pas de promesse unique de gratuité ou d'inclusion pour toutes les combinaisons [web:15][web:17].
+L'accès à Agent Builder et à ses capacités dépend des licences et des politiques du tenant. Il n'existe pas de promesse unique de gratuité ou d'inclusion pour toutes les combinaisons.
 
 ## 5. Préparer les documents et vérifier l'ancrage
 
 ### 5.1 Dossier de travail
 
-Les annexes contiennent douze documents intégraux ; le pack fournit aussi leur version TXT prête à charger. Le Markdown est le support de lecture, pas le format documentaire imposé à Copilot. TXT et DOCX sont adaptés aux textes ; XLSX convient aux tableaux si disponible ; le CSV sert ici à consigner les résultats et n'est pas supposé accepté comme connaissance dans toutes les interfaces [web:12].
+Les annexes contiennent douze documents intégraux ; le pack fournit aussi leur version TXT prête à charger. Le Markdown est le support de lecture, pas le format documentaire imposé à Copilot. TXT et DOCX sont adaptés aux textes ; XLSX convient aux tableaux si disponible ; le CSV sert ici à consigner les résultats et n'est pas supposé accepté comme connaissance dans toutes les interfaces.
 
 1. Créer un dossier de formation local ou une bibliothèque SharePoint autorisée « NOVA-TP ». Ne pas utiliser un espace public.
    - Attendu : emplacement connu et accès limité au groupe de formation.
@@ -151,10 +151,10 @@ Exécuter K pour les documents indiqués au chapitre B de chaque assistant.
    - Erreur : coller un chemin local dans Enter URL. Solution : utiliser Upload ou un lien de travail réel accessible ; ne pas fabriquer d'URL.
 3. Attendre la fin de préparation. Une source encore « Preparing » n'est pas utilisée ; actualiser l'état si le contrôle est disponible et patienter quelques minutes.
    - Attendu : documents prêts avant le test.
-   - Erreur : interpréter l'absence de réponse pendant l'indexation comme un défaut d'instructions. Solution : vérifier d'abord état, droits et lecture du fichier [web:12].
+   - Erreur : interpréter l'absence de réponse pendant l'indexation comme un défaut d'instructions. Solution : vérifier d'abord état, droits et lecture du fichier.
 4. Si présent, activer « Only use specified sources ». Si disponibles, ne pas activer Search all websites et désactiver les références à la messagerie, aux conversations et aux personnes non nécessaires.
    - Attendu : périmètre de recherche resserré et documenté.
-   - Erreur : croire que ce réglage bloque toute connaissance générale du modèle. Il priorise les sources pour les recherches documentaires, sans interdire toute connaissance générale. Studio est la voie à étudier si un contrôle plus strict est exigé [web:12].
+   - Erreur : croire que ce réglage bloque toute connaissance générale du modèle. Il priorise les sources pour les recherches documentaires, sans interdire toute connaissance générale. Studio est la voie à étudier si un contrôle plus strict est exigé.
 5. Dans Try it, lancer : « D'après D01, quel est le budget approuvé, la réserve incluse et le jalon de mise en service ? Donne le titre, la version et la section source. Si tu n'accèdes pas au document, dis-le. »
    - Attendu : 240 000 EUR HT, 20 000 EUR HT inclus, 07/06/2027 ; D01 v1.0 §§4–5.
    - Erreur : réponse correcte mais sans preuve de source. Solution : ouvrir la citation native si fournie, comparer le passage ; demander la section exacte. Un nom de fichier inventé ou recopié ne suffit pas à prouver la recherche.
@@ -174,23 +174,23 @@ Cette variante permet d'apprendre à configurer et tester des instructions ; ell
 
 ### 5.4 Attention au partage des fichiers
 
-Un fichier embarqué par Upload devient une connaissance de l'agent : les utilisateurs ayant accès à cet agent peuvent recevoir des réponses fondées sur ce contenu, sous réserve des restrictions d'étiquettes prises en charge. Ce n'est pas la même logique que la référence à un document SharePoint dont les droits existants sont respectés. Ne pas embarquer de fichier restreint dans un agent largement partagé. Microsoft documente aussi des limites de prise en charge des étiquettes et d'Information Barriers sur les fichiers embarqués [web:12].
+Un fichier embarqué par Upload devient une connaissance de l'agent : les utilisateurs ayant accès à cet agent peuvent recevoir des réponses fondées sur ce contenu, sous réserve des restrictions d'étiquettes prises en charge. Ce n'est pas la même logique que la référence à un document SharePoint dont les droits existants sont respectés. Ne pas embarquer de fichier restreint dans un agent largement partagé. Microsoft documente aussi des limites de prise en charge des étiquettes et d'Information Barriers sur les fichiers embarqués.
 
 ## 6. Variante Copilot Studio — sans mélanger les interfaces
 
-Ce parcours décrit l'expérience standard documentée de Copilot Studio, pas toutes les nouvelles expériences proposées au tenant. Si votre écran propose une nouvelle expérience différente, ne cherchez pas à y retrouver fictivement les mêmes onglets : utiliser Agent Builder, ou faire valider l'adaptation par le formateur. La documentation Microsoft distingue explicitement l'expérience standard et fournit un basculement « New experience » lorsqu'il est présent [web:22].
+Ce parcours décrit l'expérience standard documentée de Copilot Studio, pas toutes les nouvelles expériences proposées au tenant. Si votre écran propose une nouvelle expérience différente, ne cherchez pas à y retrouver fictivement les mêmes onglets : utiliser Agent Builder, ou faire valider l'adaptation par le formateur. La documentation Microsoft distingue explicitement l'expérience standard et fournit un basculement « New experience » lorsqu'il est présent .
 
 1. Ouvrir Copilot Studio avec le compte professionnel autorisé et vérifier l'environnement de formation. Si « New experience » est proposé, le désactiver uniquement avec accord du formateur pour suivre ce parcours standard. Si aucun basculement n'existe et que les écrans diffèrent, arrêter ce parcours.
    - Attendu : accueil de l'expérience standard.
    - Erreur : suivre un tutoriel standard dans une autre expérience. Solution : revenir au parcours A ou demander l'adaptation locale.
 2. Dans l'accueil standard, utiliser la zone de description de création d'agent. Saisir la description du chapitre C de l'assistant, sans ajouter d'outil ni de site proposé automatiquement. Si cette zone n'est pas disponible, ne pas inventer de bouton ; vérifier la méthode de création autorisée avec le formateur.
    - Attendu : agent provisionné, page Overview.
-   - Erreur : accepter toutes les suggestions. Solution : écarter les outils et déclencheurs non nécessaires [web:22].
+   - Erreur : accepter toutes les suggestions. Solution : écarter les outils et déclencheurs non nécessaires 
 3. Sur Overview, modifier le nom, la description et les instructions avec les blocs du métier. Enregistrer avec Save si affiché ; vérifier la persistance en rouvrant la page.
    - Attendu : instructions du chapitre D intégrales.
    - Erreur : conserver en plus des instructions automatiques incompatibles. Solution : relire et remplacer les consignes de rôle contradictoires.
 4. Ouvrir Knowledge, puis l'ajout de connaissances (Add knowledge ou Add selon l'écran), choisir uniquement le type visible et autorisé : fichiers ou SharePoint. Sélectionner les documents du chapitre B ; terminer l'ajout selon les contrôles affichés et attendre l'état prêt.
-   - Attendu : corpus réellement configuré. Les sources au niveau agent sont accessibles depuis Knowledge dans l'expérience standard [web:14].
+   - Attendu : corpus réellement configuré. Les sources au niveau agent sont accessibles depuis Knowledge dans l'expérience standard .
    - Erreur : connecter un dépôt sans droit. Solution : demander le droit ou prendre la variante en conversation, sans modifier les permissions soi-même.
 5. Contrôler les réglages d'IA générative disponibles. Si les options d'usage des connaissances générales et de recherche web sont présentes, les désactiver pour ce parcours documentaire et noter leur état. Ne pas inventer de chemin de menu si votre interface les place ailleurs ; faire repérer le réglage par le formateur dans la documentation propre à la version. L'absence d'option n'autorise pas à garantir une restriction technique des sources.
    - Attendu : configuration de recherche connue ; pas d'action d'écriture, pas de déclencheur autonome.
@@ -198,12 +198,12 @@ Ce parcours décrit l'expérience standard documentée de Copilot Studio, pas to
 6. Dans Test your agent, lancer le test K5. Utiliser Start new test session pour isoler les essais ; conserver la réponse et les références.
    - Attendu : test privé exécuté sans publication.
    - Erreur : aucune capacité/crédits. Solution : administrateur ou report de l'exécution ; ne pas marquer réussi.
-7. Si la section Suggested prompts existe sur Overview, choisir Add suggested prompts ou Edit, coller les suggestions du métier, puis Save. Ces suggestions peuvent être visibles dans Teams/Copilot mais pas dans le panneau de test de Studio [web:22].
+7. Si la section Suggested prompts existe sur Overview, choisir Add suggested prompts ou Edit, coller les suggestions du métier, puis Save. Ces suggestions peuvent être visibles dans Teams/Copilot mais pas dans le panneau de test de Studio 
    - Attendu : exemples prêts ; à défaut, fiche d'exemples à copier manuellement.
    - Erreur : absence dans le panneau de test interprétée comme perte. Solution : vérifier leur champ de configuration et le canal cible.
 8. Si publication autorisée après validation, utiliser Publish puis confirmer. Conserver une authentification Microsoft appropriée ; ne pas passer à No authentication. Pour la diffusion Microsoft 365 Copilot/Teams, utiliser uniquement le canal exposé et validé par l'administrateur ; publication, installation et approbation de catalogue peuvent être distinctes.
    - Attendu : accès restreint au groupe test, puis vérification avec un utilisateur test autorisé.
-   - Erreur : croire que Publish donne automatiquement accès à tout le monde et aux sources. Solution : vérifier canal, accès agent et permissions documentaires séparément. La publication n'est pas possible avec la seule licence d'essai [web:13][web:16].
+   - Erreur : croire que Publish donne automatiquement accès à tout le monde et aux sources. Solution : vérifier canal, accès agent et permissions documentaires séparément. La publication n'est pas possible avec la seule licence d'essai
 
 Le TP est réalisable sans publication dans Studio si les tests privés s'exécutent. Inscrire alors « configuré et testé en privé, non publié », pas « déployé dans Microsoft 365 ».
 
@@ -244,7 +244,7 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
 1. Ouvrir Microsoft 365 Copilot sur navigateur de bureau avec le compte professionnel. Dans le volet gauche, sélectionner New agent, puis Skip to configure pour accéder à Configure.
    - Texte à saisir : aucun à cette étape.
    - Résultat attendu : formulaire d'un nouvel agent, pas simple conversation Copilot.
-   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé [web:27].
+   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé
 2. Dans Name, copier :
    ```text
    NOVA — Product Owner Assistant
@@ -262,10 +262,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : texte tronqué par la limite du champ ; solution : vérifier le compteur/avertissement et retirer d'abord les exemples de formulation, sans supprimer les règles de fiabilité ; faire valider le bloc restant par le formateur. Ne pas annoncer une longueur universelle.
 5. Dans Knowledge, exécuter K1 à K4 pour D00, D01, D02, D03, D04, D07. N'ajouter ni le dossier personnel entier ni tous les emails.
    - Résultat attendu : liste des documents de B et état prêt. Contrôle humain : ouvrir un fichier depuis sa source autorisée.
-   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée [web:12].
+   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée 
 6. Rechercher les capacités réellement visibles. Si Only use specified sources est présent, l'activer et noter la limite expliquée au chapitre 5.2. Ne pas activer la recherche web globale pour le corpus NOVA. Désactiver les références aux personnes/Teams/emails lorsqu'elles sont présentes et non nécessaires. Laisser Create images désactivé. Create documents, charts, and code, si présent, est facultatif et désactivé pour le parcours de base.
    - Résultat attendu : texte et tableaux en conversation ; aucune action métier, aucun envoi, aucun déclenchement autonome.
-   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP [web:27].
+   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP
 7. Dans Suggested prompts, si cette section est présente, ajouter les trois titres et demandes du tableau C7. Si elle n'existe pas, conserver ce tableau comme aide-mémoire à copier en conversation.
    - Résultat attendu : trois exemples adaptés à PO, visibles selon expérience après création.
    - Erreur : remplir le titre sans le texte de demande ; solution : renseigner les deux champs lorsqu'ils existent.
@@ -274,10 +274,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : verdict réussi après une simple réponse fluide ; solution : ouvrir les références et vérifier les critères un par un.
 9. Après ce premier contrôle, sélectionner Create. Microsoft indique qu'une confirmation signale alors que l'agent est privé. Lors d'une modification ultérieure, rechercher Update pour appliquer les changements si ce contrôle est affiché. Si l'interface enregistre automatiquement certaines modifications, vérifier en rouvrant l'agent et en rejouant une question.
    - Résultat attendu : agent créé et retrouvable dans la liste personnelle ; nom et instructions persistants.
-   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon [web:28][web:31].
+   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon
 10. Exécuter la campagne de validation avant tout partage. Si le partage est autorisé, ouvrir Share, saisir l'utilisateur ou groupe de formation dans Add a name, group, or email, choisir Can chat (Can edit seulement pour un co-auteur autorisé), puis Add. Décocher Send notification pour ne pas envoyer d'email pendant le TP. Ne pas activer Org-wide sharing for chat access. Vérifier avec le destinataire test ses accès à l'agent et aux documents ; ne pas élargir les droits des sources pour « réparer » une erreur sans accord.
     - Résultat attendu : accès ciblé au groupe autorisé, ou agent privé avec motif de non-partage. Le partage n'est pas une publication générale au catalogue.
-    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction [web:28][web:15].
+    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction
 
 #### C7. Suggestions de démarrage à copier
 
@@ -466,7 +466,7 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
 1. Ouvrir Microsoft 365 Copilot sur navigateur de bureau avec le compte professionnel. Dans le volet gauche, sélectionner New agent, puis Skip to configure pour accéder à Configure.
    - Texte à saisir : aucun à cette étape.
    - Résultat attendu : formulaire d'un nouvel agent, pas simple conversation Copilot.
-   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé [web:27].
+   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé
 2. Dans Name, copier :
    ```text
    NOVA — PMO Assistant
@@ -484,10 +484,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : texte tronqué par la limite du champ ; solution : vérifier le compteur/avertissement et retirer d'abord les exemples de formulation, sans supprimer les règles de fiabilité ; faire valider le bloc restant par le formateur. Ne pas annoncer une longueur universelle.
 5. Dans Knowledge, exécuter K1 à K4 pour D00, D01, D05, D06, D07, D08, D10, D11. N'ajouter ni le dossier personnel entier ni tous les emails.
    - Résultat attendu : liste des documents de B et état prêt. Contrôle humain : ouvrir un fichier depuis sa source autorisée.
-   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée [web:12].
+   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée 
 6. Rechercher les capacités réellement visibles. Si Only use specified sources est présent, l'activer et noter la limite expliquée au chapitre 5.2. Ne pas activer la recherche web globale pour le corpus NOVA. Désactiver les références aux personnes/Teams/emails lorsqu'elles sont présentes et non nécessaires. Laisser Create images désactivé. Create documents, charts, and code, si présent, est facultatif et désactivé pour le parcours de base.
    - Résultat attendu : texte et tableaux en conversation ; aucune action métier, aucun envoi, aucun déclenchement autonome.
-   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP [web:27].
+   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP
 7. Dans Suggested prompts, si cette section est présente, ajouter les trois titres et demandes du tableau C7. Si elle n'existe pas, conserver ce tableau comme aide-mémoire à copier en conversation.
    - Résultat attendu : trois exemples adaptés à PMO, visibles selon expérience après création.
    - Erreur : remplir le titre sans le texte de demande ; solution : renseigner les deux champs lorsqu'ils existent.
@@ -496,10 +496,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : verdict réussi après une simple réponse fluide ; solution : ouvrir les références et vérifier les critères un par un.
 9. Après ce premier contrôle, sélectionner Create. Microsoft indique qu'une confirmation signale alors que l'agent est privé. Lors d'une modification ultérieure, rechercher Update pour appliquer les changements si ce contrôle est affiché. Si l'interface enregistre automatiquement certaines modifications, vérifier en rouvrant l'agent et en rejouant une question.
    - Résultat attendu : agent créé et retrouvable dans la liste personnelle ; nom et instructions persistants.
-   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon [web:28][web:31].
+   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon.
 10. Exécuter la campagne de validation avant tout partage. Si le partage est autorisé, ouvrir Share, saisir l'utilisateur ou groupe de formation dans Add a name, group, or email, choisir Can chat (Can edit seulement pour un co-auteur autorisé), puis Add. Décocher Send notification pour ne pas envoyer d'email pendant le TP. Ne pas activer Org-wide sharing for chat access. Vérifier avec le destinataire test ses accès à l'agent et aux documents ; ne pas élargir les droits des sources pour « réparer » une erreur sans accord.
     - Résultat attendu : accès ciblé au groupe autorisé, ou agent privé avec motif de non-partage. Le partage n'est pas une publication générale au catalogue.
-    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction [web:28][web:15].
+    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction 
 
 #### C7. Suggestions de démarrage à copier
 
@@ -691,7 +691,7 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
 1. Ouvrir Microsoft 365 Copilot sur navigateur de bureau avec le compte professionnel. Dans le volet gauche, sélectionner New agent, puis Skip to configure pour accéder à Configure.
    - Texte à saisir : aucun à cette étape.
    - Résultat attendu : formulaire d'un nouvel agent, pas simple conversation Copilot.
-   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé [web:27].
+   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé
 2. Dans Name, copier :
    ```text
    NOVA — Chef de projet PMP Assistant
@@ -709,10 +709,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : texte tronqué par la limite du champ ; solution : vérifier le compteur/avertissement et retirer d'abord les exemples de formulation, sans supprimer les règles de fiabilité ; faire valider le bloc restant par le formateur. Ne pas annoncer une longueur universelle.
 5. Dans Knowledge, exécuter K1 à K4 pour D00, D01, D02, D05, D06, D07, D08, D09. N'ajouter ni le dossier personnel entier ni tous les emails.
    - Résultat attendu : liste des documents de B et état prêt. Contrôle humain : ouvrir un fichier depuis sa source autorisée.
-   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée [web:12].
+   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée 
 6. Rechercher les capacités réellement visibles. Si Only use specified sources est présent, l'activer et noter la limite expliquée au chapitre 5.2. Ne pas activer la recherche web globale pour le corpus NOVA. Désactiver les références aux personnes/Teams/emails lorsqu'elles sont présentes et non nécessaires. Laisser Create images désactivé. Create documents, charts, and code, si présent, est facultatif et désactivé pour le parcours de base.
    - Résultat attendu : texte et tableaux en conversation ; aucune action métier, aucun envoi, aucun déclenchement autonome.
-   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP [web:27].
+   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP 
 7. Dans Suggested prompts, si cette section est présente, ajouter les trois titres et demandes du tableau C7. Si elle n'existe pas, conserver ce tableau comme aide-mémoire à copier en conversation.
    - Résultat attendu : trois exemples adaptés à PMP, visibles selon expérience après création.
    - Erreur : remplir le titre sans le texte de demande ; solution : renseigner les deux champs lorsqu'ils existent.
@@ -721,10 +721,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : verdict réussi après une simple réponse fluide ; solution : ouvrir les références et vérifier les critères un par un.
 9. Après ce premier contrôle, sélectionner Create. Microsoft indique qu'une confirmation signale alors que l'agent est privé. Lors d'une modification ultérieure, rechercher Update pour appliquer les changements si ce contrôle est affiché. Si l'interface enregistre automatiquement certaines modifications, vérifier en rouvrant l'agent et en rejouant une question.
    - Résultat attendu : agent créé et retrouvable dans la liste personnelle ; nom et instructions persistants.
-   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon [web:28][web:31].
+   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon
 10. Exécuter la campagne de validation avant tout partage. Si le partage est autorisé, ouvrir Share, saisir l'utilisateur ou groupe de formation dans Add a name, group, or email, choisir Can chat (Can edit seulement pour un co-auteur autorisé), puis Add. Décocher Send notification pour ne pas envoyer d'email pendant le TP. Ne pas activer Org-wide sharing for chat access. Vérifier avec le destinataire test ses accès à l'agent et aux documents ; ne pas élargir les droits des sources pour « réparer » une erreur sans accord.
     - Résultat attendu : accès ciblé au groupe autorisé, ou agent privé avec motif de non-partage. Le partage n'est pas une publication générale au catalogue.
-    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction [web:28][web:15].
+    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction.
 
 #### C7. Suggestions de démarrage à copier
 
@@ -915,7 +915,7 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
 1. Ouvrir Microsoft 365 Copilot sur navigateur de bureau avec le compte professionnel. Dans le volet gauche, sélectionner New agent, puis Skip to configure pour accéder à Configure.
    - Texte à saisir : aucun à cette étape.
    - Résultat attendu : formulaire d'un nouvel agent, pas simple conversation Copilot.
-   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé [web:27].
+   - Erreur fréquente : bouton absent ; solution : contrôle du chapitre 4, pas de menu alternatif inventé.
 2. Dans Name, copier :
    ```text
    NOVA — AMOA Assistant
@@ -933,10 +933,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : texte tronqué par la limite du champ ; solution : vérifier le compteur/avertissement et retirer d'abord les exemples de formulation, sans supprimer les règles de fiabilité ; faire valider le bloc restant par le formateur. Ne pas annoncer une longueur universelle.
 5. Dans Knowledge, exécuter K1 à K4 pour D00, D01, D02, D03, D04, D07, D09. N'ajouter ni le dossier personnel entier ni tous les emails.
    - Résultat attendu : liste des documents de B et état prêt. Contrôle humain : ouvrir un fichier depuis sa source autorisée.
-   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée [web:12].
+   - Erreur : « Preparing » ou fichier introuvable ; solution : attendre, actualiser si possible, vérifier format et droit. Si indisponible, parcours B du chapitre 5.3, limitation consignée.
 6. Rechercher les capacités réellement visibles. Si Only use specified sources est présent, l'activer et noter la limite expliquée au chapitre 5.2. Ne pas activer la recherche web globale pour le corpus NOVA. Désactiver les références aux personnes/Teams/emails lorsqu'elles sont présentes et non nécessaires. Laisser Create images désactivé. Create documents, charts, and code, si présent, est facultatif et désactivé pour le parcours de base.
    - Résultat attendu : texte et tableaux en conversation ; aucune action métier, aucun envoi, aucun déclenchement autonome.
-   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP [web:27].
+   - Erreur : dire « peut modifier Excel » parce que la génération de documents est proposée ; solution : distinguer création éventuelle d'un nouveau fichier, modification d'un fichier existant et simple tableau. Aucun fichier existant n'est modifié dans ce TP.
 7. Dans Suggested prompts, si cette section est présente, ajouter les trois titres et demandes du tableau C7. Si elle n'existe pas, conserver ce tableau comme aide-mémoire à copier en conversation.
    - Résultat attendu : trois exemples adaptés à AMOA, visibles selon expérience après création.
    - Erreur : remplir le titre sans le texte de demande ; solution : renseigner les deux champs lorsqu'ils existent.
@@ -945,10 +945,10 @@ Exécuter les étapes ci-dessous dans Agent Builder. Si vous avez choisi Studio,
    - Erreur : verdict réussi après une simple réponse fluide ; solution : ouvrir les références et vérifier les critères un par un.
 9. Après ce premier contrôle, sélectionner Create. Microsoft indique qu'une confirmation signale alors que l'agent est privé. Lors d'une modification ultérieure, rechercher Update pour appliquer les changements si ce contrôle est affiché. Si l'interface enregistre automatiquement certaines modifications, vérifier en rouvrant l'agent et en rejouant une question.
    - Résultat attendu : agent créé et retrouvable dans la liste personnelle ; nom et instructions persistants.
-   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon [web:28][web:31].
+   - Erreur : fermeture du navigateur avant création ; solution : vérifier l'agent dans la liste puis rouvrir sa configuration, pas seulement le brouillon.
 10. Exécuter la campagne de validation avant tout partage. Si le partage est autorisé, ouvrir Share, saisir l'utilisateur ou groupe de formation dans Add a name, group, or email, choisir Can chat (Can edit seulement pour un co-auteur autorisé), puis Add. Décocher Send notification pour ne pas envoyer d'email pendant le TP. Ne pas activer Org-wide sharing for chat access. Vérifier avec le destinataire test ses accès à l'agent et aux documents ; ne pas élargir les droits des sources pour « réparer » une erreur sans accord.
     - Résultat attendu : accès ciblé au groupe autorisé, ou agent privé avec motif de non-partage. Le partage n'est pas une publication générale au catalogue.
-    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction [web:28][web:15].
+    - Erreur : le destinataire voit l'agent mais pas les sources ; solution : vérifier ses droits documentaires et les restrictions de licence avec l'administrateur. Si Share n'existe pas, continuer en privé et consigner la restriction.
 
 #### C7. Suggestions de démarrage à copier
 
