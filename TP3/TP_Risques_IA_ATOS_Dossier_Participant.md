@@ -1,4 +1,4 @@
-# TP — Construire une matrice des risques et un plan de mitigation d’un projet IA client ATOS avec l’aide de l’IA
+# TP — Construire une matrice des risques et un plan de mitigation d’un projet IA client CGI avec l’aide de l’IA
 
 Dossier participant — Version octobre 2026 — Cas pédagogique ORION Services
 
@@ -12,7 +12,7 @@ Dix ateliers enrichissent le même classeur. Travail en binômes PMO/BA : l’un
 
 Le document est un dossier de référence : ne pas tenter de tout lire avant l’atelier 1. Lire d’abord le contexte et suivre l’atelier courant. Les échelles et prompts restent accessibles pendant le travail.
 
-Le client ORION Services, les données, contrats, budgets, contraintes et incidents d’exercice sont fictifs. ATOS est le prestataire du scénario demandé ; aucune politique interne ni aucun engagement réel d’ATOS n’est supposé. Les règles du TP sont des conventions pédagogiques, pas une charte officielle.
+Le client ORION Services, les données, contrats, budgets, contraintes et incidents d’exercice sont fictifs. CGI est le prestataire du scénario demandé ; aucune politique interne ni aucun engagement réel d’CGI n’est supposé. Les règles du TP sont des conventions pédagogiques, pas une charte officielle.
 
 ### Supports fournis
 
@@ -44,7 +44,7 @@ L’objectif n’est pas d’atteindre artificiellement un tableau vert. Une ré
 
 ## 5. Contexte du projet IA
 
-ATOS accompagne ORION Services, groupe fictif de services B2B, pour construire un assistant documentaire à destination de 400 utilisateurs. Il aide à retrouver les procédures applicables, résumer des dossiers et préparer une réponse métier avec citations. Un pilote de 30 utilisateurs est prévu le 2 novembre ; l’ouverture plus large le 30 novembre 2026.
+CGI accompagne ORION Services, groupe fictif de services B2B, pour construire un assistant documentaire à destination de 400 utilisateurs. Il aide à retrouver les procédures applicables, résumer des dossiers et préparer une réponse métier avec citations. Un pilote de 30 utilisateurs est prévu le 2 novembre ; l’ouverture plus large le 30 novembre 2026.
 
 Le projet comprend cadrage, processus, préparation documentaire, architecture, configuration d’un LLM hébergé dans un environnement approuvé, RAG, intégration GED/SharePoint, tests, recette, revue sécurité/conformité, accompagnement et transfert. Aucun entraînement d’un modèle de fondation ni fine-tuning n’est engagé dans le périmètre initial. Les participants organisent les contrôles ; ils ne développent pas ces composants.
 
@@ -114,7 +114,7 @@ Aucune réserve de contingence n’est approuvée à date. Vous devez proposer s
 | DPO client | Conseil et coordination données personnelles ; décisions de traitement avec les responsables habilités |
 | Change Manager | Formation, usages responsables et adoption |
 
-Dans ce scénario, Security Officer peut ordonner la suspension conservatoire du pilote ; le Project Manager coordonne ; le sponsor autorise une réserve et les modifications de date/périmètre. La reprise exige validation sécurité et métier, avec avis conformité si concerné. Ce sont des pouvoirs pédagogiques à documenter, pas une politique ATOS réelle.
+Dans ce scénario, Security Officer peut ordonner la suspension conservatoire du pilote ; le Project Manager coordonne ; le sponsor autorise une réserve et les modifications de date/périmètre. La reprise exige validation sécurité et métier, avec avis conformité si concerné. Ce sont des pouvoirs pédagogiques à documenter, pas une politique CGI réelle.
 
 ### 6.6 Onglets à compléter
 
@@ -247,7 +247,7 @@ Lire le contexte ; lister trois objectifs, trois faits problématiques ou à qua
 Agis comme un BA aidant un PMO. Analyse ce contexte fictif [coller sections 5 et 6].
 Sépare objectifs, faits, problèmes déjà constatés, hypothèses et événements futurs.
 Ne génère pas encore de scores. Signale les informations manquantes.
-Ne prétends pas connaître une politique ATOS ou le contrat client réel.
+Ne prétends pas connaître une politique CGI ou le contrat client réel.
 ```
 
 ### Travail du participant
@@ -574,7 +574,7 @@ Préparer et tester une réponse activable lorsque les barrières ne suffisent p
 
 ### Contexte
 
-Le formateur annonce une simulation distincte de l’état de base : dans un test, un compte agence A obtient un extrait classé réservé à l’agence B après ingestion d’un document contenant une instruction malveillante. Aucun contenu réel n’est utilisé. La simulation ne devient pas un incident réel ATOS.
+Le formateur annonce une simulation distincte de l’état de base : dans un test, un compte agence A obtient un extrait classé réservé à l’agence B après ingestion d’un document contenant une instruction malveillante. Aucun contenu réel n’est utilisé. La simulation ne devient pas un incident réel CGI.
 
 ### Consigne
 
@@ -770,7 +770,7 @@ Le guide séparé contient les dix risques, toutes les colonnes du registre, les
 
 ### L’IA identifie, le PMO décide
 
-Une matrice générée ne devient pas valide parce qu’elle est complète visuellement. Contrôler pertinence, couverture, doublons, sources, P/I, owners, faisabilité, coût, disponibilité, contrat et gates. Ne jamais présenter une politique ATOS ou une qualification réglementaire supposée comme une donnée confirmée.
+Une matrice générée ne devient pas valide parce qu’elle est complète visuellement. Contrôler pertinence, couverture, doublons, sources, P/I, owners, faisabilité, coût, disponibilité, contrat et gates. Ne jamais présenter une politique CGI ou une qualification réglementaire supposée comme une donnée confirmée.
 
 ### Faiblesses à détecter
 
