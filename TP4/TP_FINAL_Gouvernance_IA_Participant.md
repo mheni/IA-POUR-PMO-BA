@@ -1,4 +1,4 @@
-# TP FINAL — Construire une fiche de gouvernance IA pour un projet client ATOS
+# TP FINAL — Construire une fiche de gouvernance IA pour un projet client CGI
 
 Dossier participant — Module « Gouvernance IA en environnement Microsoft » — Version octobre 2026
 
@@ -10,9 +10,9 @@ Principe : Cadrer → Gouverner → Contrôler → Auditer → Corriger → Vali
 
 Durée : 3 h 15 nettes, hors pauses. Sept ateliers successifs enrichissent la même fiche, puis quinze minutes sont réservées à sa finalisation. Travail en binômes PMO/BA ; échanger les rôles après la revue des données.
 
-Livrable principal : « Fiche de gouvernance IA — Projet client ATOS », parties A à I, incluant exactement quinze contrôles et une décision recommandée pour Gate 6.
+Livrable principal : « Fiche de gouvernance IA — Projet client CGI », parties A à I, incluant exactement quinze contrôles et une décision recommandée pour Gate 6.
 
-Le client ORION Services, les documents, budgets, configurations et incidents sont fictifs. Aucune politique, certification, procédure interne ni aucun contrat réel d’ATOS n’est supposé. Le dossier a fait l’objet de vérifications de cohérence pédagogique et de confrontation aux sources publiques citées ; il ne constitue ni avis juridique, ni audit de certification, ni validation d’un tenant Microsoft.
+Le client ORION Services, les documents, budgets, configurations et incidents sont fictifs. Aucune politique, certification, procédure interne ni aucun contrat réel d’CGI n’est supposé. Le dossier a fait l’objet de vérifications de cohérence pédagogique et de confrontation aux sources publiques citées ; il ne constitue ni avis juridique, ni audit de certification, ni validation d’un tenant Microsoft.
 
 ### Supports
 
@@ -36,7 +36,7 @@ L’IA aide à extraire, organiser et challenger ; elle ne confirme ni conformit
 
 ## 5. Contexte du projet IA
 
-ATOS accompagne ORION Services, groupe fictif B2B, pour un assistant de consultation de procédures, contrats et dossiers de service. Il recherche des sources, résume et prépare une réponse citée. Les réponses sensibles doivent être vérifiées par une personne ; aucun octroi de droit, diagnostic, recrutement ou autre décision autonome n’est dans le périmètre.
+CGI accompagne ORION Services, groupe fictif B2B, pour un assistant de consultation de procédures, contrats et dossiers de service. Il recherche des sources, résume et prépare une réponse citée. Les réponses sensibles doivent être vérifiées par une personne ; aucun octroi de droit, diagnostic, recrutement ou autre décision autonome n’est dans le périmètre.
 
 Budget de référence : 600 000 €. Trente utilisateurs pilotes autorisés pour l’expérimentation synthétique ; quatre cents utilisateurs cibles après autorisation. Date d’état : 19 novembre 2026. Gate 6 : 20 novembre. Production cible : 30 novembre, non autorisée à date.
 
@@ -50,7 +50,7 @@ Aucun modèle de fondation n’est entraîné dans ce pilote. Il s’agit de con
 | --- | --- | --- | --- |
 | E01 | Charte projet v1.2 signée le 02/09/2026 | Sponsor et PM client ont approuvé 600000 EUR, assistance documentaire et gain cible 20 % temps de recherche, baseline à mesurer. Aucun bénéfice mesuré encore. | Charte / G1 |
 | E02 | Use Case et BRD v1.1 signés le 16/09/2026 | 400 utilisateurs cibles, 30 pilotes synthétiques ; pas de décision autonome. Critères : >=95 % cas corrects dans jeu représentatif de 100 cas, zéro erreur grave, zéro accès interdit. OCR externe et décisions autonomes exclus. | Besoins / G2 |
-| E03 | RACI v0.9 | Sponsor autorise G6 sur avis obligatoire métier/sécurité et revue protection données. PM coordonne ; PMO suit ; BA clarifie. Owner exploitation indiqué TBC ; suppléant incident absent. Client responsable du traitement proposé, ATOS sous-traitant proposé, contrat à confirmer par juridique. | Rôles |
+| E03 | RACI v0.9 | Sponsor autorise G6 sur avis obligatoire métier/sécurité et revue protection données. PM coordonne ; PMO suit ; BA clarifie. Owner exploitation indiqué TBC ; suppléant incident absent. Client responsable du traitement proposé, CGI sous-traitant proposé, contrat à confirmer par juridique. | Rôles |
 | E04 | Fiche classification IA v0.4 | Assistant LLM/RAG de consultation, validation humaine, criticité interne élevée. La case obligations réglementaires indique « faible risque car Microsoft » sans analyse approuvée. Aucun certificat ISO/IEC 42001 fourni. | Classification |
 | E05 | Inventaire données v0.6 | Six sources listées. D3/D4 owners à confirmer ; toutes étiquetées Interne dans index ; conservation embeddings non définie ; qualité versions incomplète ; schéma de flux non mis à jour pour OCR. | Données |
 | E06 | Export habilitations du 18/11/2026 | Application ouverte au groupe All-Employees de 1200 comptes au lieu des 30 pilotes autorisés ; index partagé sans liste de groupes autorisés documentée ; documents restreints présents. Aucun test négatif signé. | Accès |
@@ -272,11 +272,11 @@ Compléter A/B/C ; écrire pour chaque étape un owner, un livrable, un valideur
 ### Prompt IA — 1 Analyse initiale
 
 ```text
-Analyse ce contexte fictif ORION IA réalisé avec ATOS [coller contexte et E01–E12].
+Analyse ce contexte fictif ORION IA réalisé avec CGI [coller contexte et E01–E12].
 Identifie enjeux de gouvernance, données, sécurité, conformité et risques.
 Structure huit étapes, livrables, Gates, owners et validations.
 Pour chaque constat, cite l’ID de pièce ; distingue signé, brouillon et absent.
-N’invente ni politique ATOS, ni responsabilité contractuelle acquise,
+N’invente ni politique CGI, ni responsabilité contractuelle acquise,
 ni classification réglementaire. Liste les informations à faire confirmer.
 ```
 
