@@ -256,6 +256,23 @@ Point de contrôle : Cliquer sur un des vusuels ouvre le rapport qui l’aliment
 
 En cas de problème : Ce n’est pas une commande Copilot de création native du dashboard : Copilot a créé les pages/visuels, l’épinglage crée l’objet dashboard. Le dashboard ne filtre pas globalement quatre modèles différents.
 
+### Étape 9 — Tester S02 et l’actualisation
+
+Objectif : Comprendre le pipeline source→modèle→rapport→tuile.
+
+Point de départ : Site source et workspace, S01 validée.
+
+Manipulations :
+1. Lire la fiche S02 : Tests/recette avance20→45, charge15→35h et coût3000→6000 ; KPI déjà recalculés67%/73%.
+2. Dans OneDrive,les données de S02 , dans le même emplacement des données S01 avec les mêmes noms, biensur supprimer ces derniers.
+3. Workspace : menu … de chaque modèle → Refresh now / Actualiser maintenant ; lire historique/paramètres si affichés.
+4. Le scénario fichier cloud peut synchroniser jusqu’àenviron 1heure ; ne pas promettre effet immédiat ni considérer reload du navigateur comme refresh des données.
+5. Vérifier S02 dans CHAQUE rapport avant de lire le dashboard consolidé ; pas un mélangeS01/S02.
+6. Rafraîchir ensuite les visuels/ouvrir le dashboard,.
+7. Si source initiale était un Upload local, cette opération SharePoint ne peut pas mettre à jour ce modèle : connexion cloud non validée.
+
+
+
 
 ### Contrôle de la navigation
 
