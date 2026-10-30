@@ -1,4 +1,4 @@
-# TP — Créer un tableau de bord PO_PMO/PM avec Copilot dans Power BI Service
+# TP — Créer un tableau de bord PO_PMO_PM avec Copilot dans Power BI Service
 
 Parcours débutant, entièrement dans le navigateur : données préparées → chargement dans le workspace → rapports Copilot → tableau de bord → contrôle des mises à jour.
 
