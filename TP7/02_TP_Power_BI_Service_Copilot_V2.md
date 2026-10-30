@@ -1,4 +1,4 @@
-# TP — Créer un tableau de bord PO/PMO/PM avec Copilot dans Power BI Service
+# TP — Créer un tableau de bord PO_PMO/PM avec Copilot dans Power BI Service
 
 Parcours débutant, entièrement dans le navigateur : données préparées → chargement dans le workspace → rapports Copilot → tableau de bord → contrôle des mises à jour.
 
@@ -20,7 +20,7 @@ Le terme pipeline décrit ici la chaîne de chargement et d’actualisation des 
 
 Tronc commun : environ2heures de pratique. Extension :30à45minutes. Préparation des licences/capacités et temps de synchronisation ne sont pas compris ; ce n’est pas une garantie de performance.
 
-Les rôles sont PO/PMO/BA responsables de la lecture et de la validation. Aucun développement ni démonstration préalable nécessaire si l’environnement est correctement préparé.
+Les rôles sont PO_PMO/BA responsables de la lecture et de la validation. Aucun développement ni démonstration préalable nécessaire si l’environnement est correctement préparé.
 
 ## 3. Préparation indispensable par l’organisation
 
@@ -58,10 +58,10 @@ Dans le ZIP : Sources/S01 contient les quatre CSV initiaux ; Sources/S02 les qua
 
 | Fichier | Modèle à créer | Rapport Copilot | Lignes | Périmètre |
 | --- | --- | --- | --- | --- |
-| PO/PMO_Pilotage.csv | M_PO/PMO_Pilotage_G01 | R_PO/PMO_Synthese_G01 | 1 | Tronc commun |
-| PO/PMO_Taches.csv | M_PO/PMO_Taches_G01 | R_PO/PMO_Taches_G01 | 12 | Tronc commun |
-| PO/PMO_Risques.csv | M_PO/PMO_Risques_G01 | R_PO/PMO_Risques_G01 | 5 | Extension |
-| PO/PMO_Jalons.csv | M_PO/PMO_Jalons_G01 | R_PO/PMO_Jalons_G01 | 6 | Extension |
+| PO_PMO_Pilotage.csv | M_PO_PMO_Pilotage_G01 | R_PO_PMO_Synthese_G01 | 1 | Tronc commun |
+| PO_PMO_Taches.csv | M_PO_PMO_Taches_G01 | R_PO_PMO_Taches_G01 | 12 | Tronc commun |
+| PO_PMO_Risques.csv | M_PO_PMO_Risques_G01 | R_PO_PMO_Risques_G01 | 5 | Extension |
+| PO_PMO_Jalons.csv | M_PO_PMO_Jalons_G01 | R_PO_PMO_Jalons_G01 | 6 | Extension |
 
 
 G01 est votre code de groupe : le remplacer par G02/etc pour éviter d’écraser les objets d’un autre participant. Les deux classeurs Excel S01/S02 permettent de lire les mêmes données ; ils ne sont pas le chemin d’import de ce TP. Les CSV utilisent virgules et UTF-8, datesISO et valeurs numériques propres ; ne pas les réenregistrer dans Excel avec un autre séparateur.
@@ -104,8 +104,8 @@ Manipulations :
 1. Dans Documents/PRJ-2026-017, créer un dossier 05_Reporting_Debutants, puis votre sous-dossier G01 si plusieurs groupes.
 2. Dans le ZIP, ouvrir Sources/S01.
 3. Charger les quatre CSV avec Charger→Fichiers, sans les ouvrir/réenregistrer dans Excel.
-4. Conserver les noms PO/PMO_Pilotage.csv, PO/PMO_Taches.csv, PO/PMO_Risques.csv, PO/PMO_Jalons.csv.
-5. Le classeur Donnees_PO/PMO_Debutants_S01.xlsx est fourni pour consultation ; ce parcours charge les CSV, pas ses quatre tables à modéliser.
+4. Conserver les noms PO_PMO_Pilotage.csv, PO_PMO_Taches.csv, PO_PMO_Risques.csv, PO_PMO_Jalons.csv.
+5. Le classeur Donnees_PO_PMO_Debutants_S01.xlsx est fourni pour consultation ; ce parcours charge les CSV, pas ses quatre tables à modéliser.
 6. Vérifier accès du participant, puis relever SITE_TP et le dossier réel dans le registre.
 
 Valeur à saisir : Sources/S01 ; quatre CSV UTF-8, virgules, champs déjà nettoyés.
@@ -126,14 +126,14 @@ Manipulations :
 1. Nouveau élément / New item.
 2. Sous Store data / Stocker les données, choisir Modèle sémantique / Semantic model.
 3. Choisir CSV.
-4. Parcourir SharePoint/OneDrive organisationnel et sélectionner PO/PMO_Pilotage.csv dans G01 ; se connecter au compte autorisé si demandé.
+4. Parcourir SharePoint/OneDrive organisationnel et sélectionner PO_PMO_Pilotage.csv dans G01 ; se connecter au compte autorisé si demandé.
 5. Next / Suivant ; regarder l’aperçu : les colonnes ne doivent pas être réunies dans un seul champ.
 6. Confirmer le fichier, puis Next.
 7. Choisir Create a semantic model only / Créer uniquement un modèle sémantique.
-8. Nommer M_PO/PMO_Pilotage_G01 ; Create / Créer.
+8. Nommer M_PO_PMO_Pilotage_G01 ; Create / Créer.
 9. Attendre confirmation et revenir au workspace si le panneau de modèle s’ouvre.
 
-Valeur à saisir : PO/PMO_Pilotage.csv ; M_PO/PMO_Pilotage_G01.
+Valeur à saisir : PO_PMO_Pilotage.csv ; M_PO_PMO_Pilotage_G01.
 
 Résultat attendu : Un objet modèle contenant une seule ligne de pilotage.
 
@@ -145,7 +145,7 @@ En cas de problème : Si SharePoint n’est pas proposé, prendre Upload file po
 
 Objectif : Passer du modèle chargé à la création visuelle.
 
-Point de départ : Workspace, modèle M_PO/PMO_Pilotage_G01.
+Point de départ : Workspace, modèle M_PO_PMO_Pilotage_G01.
 
 Manipulations :
 1. Ouvrir le modèle ; utiliser Créer un rapport / Create report ou menu …→Create report.
@@ -155,9 +155,9 @@ Manipulations :
 5. Dans le volet, saisir le prompt P1 complet du fichier fourni.
 6. Si Suggest content for this report est offert, vous pouvez d’abord voir les suggestions, mais utilisez P1 pour le périmètre du TP.
 7. Attendre la génération ; noter les éventuels éléments manquants.
-8. Enregistrer / Save, nom R_PO/PMO_Synthese_G01 dans le même workspace.
+8. Enregistrer / Save, nom R_PO_PMO_Synthese_G01 dans le même workspace.
 
-Valeur à saisir : Prompt P1 ; rapport R_PO/PMO_Synthese_G01.
+Valeur à saisir : Prompt P1 ; rapport R_PO_PMO_Synthese_G01.
 
 Résultat attendu : Une page de cartes et informations du projet, générée dans le navigateur.
 
@@ -195,10 +195,10 @@ Objectif : Créer le second bloc de suivi sans modèle relationnel.
 Point de départ : Workspace, rapport de synthèse enregistré.
 
 Manipulations :
-1. Refaire exactement l’étape3 avec PO/PMO_Taches.csv.
-2. Nommer le modèle M_PO/PMO_Taches_G01.
+1. Refaire exactement l’étape3 avec PO_PMO_Taches.csv.
+2. Nommer le modèle M_PO_PMO_Taches_G01.
 3. Refaire l’étape4 à partir de ce modèle, avec prompt P2.
-4. Enregistrer R_PO/PMO_Taches_G01.
+4. Enregistrer R_PO_PMO_Taches_G01.
 5. Vérifier12tâches et tableau retards T05/T06 ; les colonnes En retard et Retard sont déjà calculées.
 6. Le graphique statuts compte les Tâche ID ; le graphique par Phase additionne Budget tâche et Coût tâche, pas les KPI globaux.
 7. Ne pas afficher la moyenne des avancements de tâches comme l’avancement projet.
@@ -218,9 +218,9 @@ Objectif : Compléter le tableau de bord par les décisions à préparer.
 Point de départ : Deux rapports du tronc commun validés.
 
 Manipulations :
-1. Répéter étape3 pour PO/PMO_Risques.csv, modèle M_PO/PMO_Risques_G01, puis étape4 avec P3 ; rapport R_PO/PMO_Risques_G01.
+1. Répéter étape3 pour PO_PMO_Risques.csv, modèle M_PO_PMO_Risques_G01, puis étape4 avec P3 ; rapport R_PO_PMO_Risques_G01.
 2. Vérifier5risques et RK04 Non précisé/À définir, pas owner inventé ; ne pas additionner les scores comme coût.
-3. Répéter pour PO/PMO_Jalons.csv, modèle M_PO/PMO_Jalons_G01, P4 ; rapport R_PO/PMO_Jalons_G01.
+3. Répéter pour PO_PMO_Jalons.csv, modèle M_PO_PMO_Jalons_G01, P4 ; rapport R_PO_PMO_Jalons_G01.
 4. Vérifier6jalons,4terminés et2menacés ; dates réelles absentes restent absentes.
 5. Save des deux rapports.
 
@@ -236,19 +236,19 @@ En cas de problème : Le tronc commun peut s’arrêter à2rapports ; marquer ce
 
 Objectif : Assembler les visuels de plusieurs rapports.
 
-Point de départ : Rapport R_PO/PMO_Synthese_G01 .
+Point de départ : Rapport R_PO_PMO_Synthese_G01 .
 
 Manipulations :
 1. Survoler la carte Avancement ; cliquer l’icône épingle / Pin visual.
-2. Choisir New dashboard / Nouveau tableau de bord ; nom TB_PO/PMO_G01.
+2. Choisir New dashboard / Nouveau tableau de bord ; nom TB_PO_PMO_G01.
 3. Cliquer Pin / Épingler puis Go to dashboard si proposé.
-4. Revenir au rapport et épingler Budget consommé, Retards et Menaces ; cette fois Existing dashboard → TB_PO/PMO_G01.
+4. Revenir au rapport et épingler Budget consommé, Retards et Menaces ; cette fois Existing dashboard → TB_PO_PMO_G01.
 5. Ouvrir le rapport Taches ; épingler graphique statuts et Budget/Coût par phase vers le même dashboard.
 6. Si extension faite, épingler graphique criticité et graphique statuts des jalons.
 7. Si un tableau/visuel ne propose pas Pin, choisir un visuel standard compatible ; ne pas inventer un bouton.
 8. Dans le dashboard, repositionner/redimensionner les tuiles si vous êtes auteur.
 
-Valeur à saisir : TB_PO/PMO_G01 ;6tuiles tronc commun,8ouplus avec extensions.
+Valeur à saisir : TB_PO_PMO_G01 ;6tuiles tronc commun,8ouplus avec extensions.
 
 Résultat attendu : Objet Tableau de bord visible dans le workspace formé par les visualisations epinglés précedement .
 
@@ -269,7 +269,7 @@ Un style/couleur demandé au modèle n’est pas forcément appliqué : Microsof
 
 ```text
 Crée une page « Synthèse du projet » dans ce rapport à partir du modèle Pilotage chargé.
-Public : sponsor et PO/PMO débutant. Il n’y a qu’une ligne de données, pour PRJ-2026-017.
+Public : sponsor et PO_PMO débutant. Il n’y a qu’une ligne de données, pour PRJ-2026-017.
 Créer des cartes pour : Avancement projet (%), Budget consommé (%), Coût réel (EUR), Tâches en retard, Jalons menacés et Risques sans propriétaire.
 Afficher Projet, Statut projet, Date état et Version sans les transformer en compteurs.
 Les colonnes de pourcentage contiennent déjà des valeurs de 0 à100 : 65 signifie65%. Afficher65 avec le titre « Avancement (%) » ; ne multiplier/diviser pas ces chiffres et ne les reformater pas en6500%.
@@ -405,7 +405,7 @@ Tronc commun : deux sources importées, deux modèles, deux rapportsCopilot vali
 | --- | --- | --- |
 | Préparation et chargement | 20 | Fichiers propres, bon cloud/workspace, modèleCSV réel |
 | Rapports Copilot | 25 | Prompts précis, pages créées, sauvegardées et corrigées |
-| Exactitude et lecture PO/PMO | 25 | Valeurs justes, manques conservés, aucune décision inventée |
+| Exactitude et lecture PO_PMO | 25 | Valeurs justes, manques conservés, aucune décision inventée |
 | Dashboard Power BI | 15 | Épinglage vers bon objet, tuiles et navigation testées |
 | Actualisation et versions | 10 | Test S02 ou limite locale honnêtement déclarée |
 | Sécurité/partage | 5 | Accès/licence vérifiés, pas partagepublic |
